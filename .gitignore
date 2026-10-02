@@ -219,3 +219,7 @@ __marimo__/
 
 # pycharm
 .idea/
+
+data
+sample_data
+.DS_Store
