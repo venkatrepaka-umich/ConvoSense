@@ -1,0 +1,37 @@
+# Test task for the Potato annotation tool.
+# From the potato/ directory:
+#   potato start config.yaml -p 8000
+
+annotation_task_name: "Conversation Sense"
+port: 8000
+task_dir: "."
+
+data_files:
+  - "sample.jsonl"
+
+item_properties:
+  id_key: id
+  text_key: text
+
+output_annotation_dir: "annotation_output/"
+export_annotation_format: "jsonl"
+# Write the JSONL export on every save. The default wait is 60 seconds,
+# which drops a second annotation made a few seconds after the first.
+auto_export_interval: 0
+
+annotation_schemes:
+  - annotation_type: radio
+    name: conversation_sense
+    description: "What is the sense of this conversation?"
+    labels:
+      - Complaint
+      - Request for help
+      - Question
+      - Praise
+    sequential_key_binding: true
+
+require_password: false
+user_config:
+  allow_all_users: true
+
+html_layout: "default"
