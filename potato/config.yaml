@@ -7,11 +7,11 @@ port: 8000
 task_dir: "."
 
 data_files:
-  - "sample.jsonl"
+  - "conversations_10.jsonl"
 
 item_properties:
   id_key: id
-  text_key: text
+  text_key: conversation
 
 output_annotation_dir: "annotation_output/"
 export_annotation_format: "jsonl"
@@ -24,10 +24,11 @@ annotation_schemes:
     name: conversation_sense
     description: "What is the sense of this conversation?"
     labels:
-      - Complaint
-      - Request for help
-      - Question
-      - Praise
+      - Appreciative or positive
+      - Neutral or informational
+      - Help-seeking or asking a question
+      - Frustrated or complaining
+      - Escalatory or requesting immediate resolution
     sequential_key_binding: true
 
 require_password: false
@@ -35,3 +36,6 @@ user_config:
   allow_all_users: true
 
 html_layout: "default"
+
+ui_language:
+  text_to_annotate: "Conversation to annotate"
