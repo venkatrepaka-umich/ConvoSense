@@ -7,8 +7,8 @@ Each conversation is one line. Turns are ordered by time and separated by |:
 
 The line keeps every turn, including the last customer message. A second file
 repeats that last customer message for the same record.
-User ids and customer-service handles are removed. Links become [link],
-and image URLs become [image].
+User ids, customer-service handles, and agent sign-offs such as ^AJ are
+removed. Links become [link], and image URLs become [image].
 """
 
 import argparse
@@ -33,6 +33,8 @@ IMAGE_CONTEXT_PATTERN = re.compile(
 )
 TRAILING_URL_PUNCTUATION = ".,;:!?)]\"'"
 BLANK_OR_LINK = re.compile(r"^(?:\s|\[link\]|\[image\]|[.,;:!?()\"'\-])*$")
+# Agent initials and first names written as ^AJ, ^SV, or ^Madison.
+AGENT_SIGNATURE = re.compile(r"\s*\^(?=[A-Z])[A-Za-z]{1,15}(?![A-Za-z'])\.?")
 
 
 def _split_trailing_punctuation(url):
@@ -62,10 +64,16 @@ def replace_links(text):
     return URL_PATTERN.sub(replace, text)
 
 
+def strip_agent_signatures(text):
+    """Remove agent sign-offs such as ^AJ and ^Madison."""
+    return AGENT_SIGNATURE.sub("", text)
+
+
 def clean_message(text):
-    """Drop ids and links, then collapse the message onto one line."""
+    """Drop ids, agent sign-offs, and links, then collapse the message onto one line."""
     text = html.unescape(text or "")
     text = strip_mentions(text)
+    text = strip_agent_signatures(text)
     text = replace_links(text)
     return normalize_text(text)
 
