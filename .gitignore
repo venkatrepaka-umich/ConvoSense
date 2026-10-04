@@ -222,4 +222,5 @@ __marimo__/
 
 data
 sample_data
+models/
 .DS_Store

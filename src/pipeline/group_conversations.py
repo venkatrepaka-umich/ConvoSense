@@ -4,7 +4,7 @@
 Tweets are linked through response_tweet_id and in_response_to_tweet_id.
 Each conversation is written on a single line, with tweet texts separated
 by ##||## and ordered by created_at. @mentions are removed from the text.
-Company replies are filed under data/<brand>/conversations.txt.
+Company replies are filed under data/conversations/<brand>/conversations.csv.
 """
 
 import argparse
@@ -131,7 +131,7 @@ def write_conversations(conversations, output_dir):
             for brand in brand_authors(thread) or ["unknown"]:
                 handle = handles.get(brand)
                 if handle is None:
-                    path = output_dir / brand / "conversations.txt"
+                    path = output_dir / "conversations" / brand / "conversations.csv"
                     path.parent.mkdir(parents=True, exist_ok=True)
                     handle = path.open("w", encoding="utf-8")
                     handles[brand] = handle
@@ -152,14 +152,14 @@ def main():
     parser.add_argument(
         "input",
         nargs="?",
-        default="sample_data/sample.csv",
-        help="Path to the input CSV (default: sample_data/sample.csv)",
+        default="data/twcs/twcs.csv",
+        help="Path to the input CSV (default: data/twcs/twcs.csv)",
     )
     parser.add_argument(
         "-o",
         "--output",
         default="data",
-        help="Directory for per-brand conversation files (default: data)",
+        help="Directory that contains the conversations folder (default: data)",
     )
     args = parser.parse_args()
 
@@ -172,7 +172,7 @@ def main():
     conversation_count = sum(grouped.values())
     print(f"Read {len(tweets)} tweets from {input_path}")
     print(
-        f"Wrote {conversation_count} conversations across {len(grouped)} brands to {output_dir}"
+        f"Wrote {conversation_count} conversations across {len(grouped)} brands to {output_dir / 'conversations'}"
     )
 
 

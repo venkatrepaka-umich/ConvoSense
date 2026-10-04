@@ -32,6 +32,7 @@ IMAGE_CONTEXT_PATTERN = re.compile(
     re.IGNORECASE,
 )
 TRAILING_URL_PUNCTUATION = ".,;:!?)]\"'"
+BLANK_OR_LINK = re.compile(r"^(?:\s|\[link\]|\[image\]|[.,;:!?()\"'\-])*$")
 
 
 def _split_trailing_punctuation(url):
@@ -75,33 +76,67 @@ def speaker_label(tweet):
     return "customer"
 
 
+def is_blank_or_link(message):
+    return BLANK_OR_LINK.match(message or "") is not None
+
+
+def last_customer_text(messages):
+    """Join the last run of customer messages, skipping a trailing link or blank.
+
+    Each message is labeled, including the first one in the run. If that run
+    is only a link, use the previous customer message instead.
+    """
+    groups = []
+    current = []
+    for speaker, message in messages:
+        if speaker == "customer":
+            current.append(message)
+            continue
+        if current:
+            groups.append(current)
+            current = []
+    if current:
+        groups.append(current)
+
+    for group in reversed(groups):
+        kept = group
+        if kept and is_blank_or_link(kept[-1]):
+            kept = [message for message in kept[:-1] if not is_blank_or_link(message)]
+        if not kept:
+            continue
+        return " | ".join(f"[customer] - {message}" for message in kept)
+    return ""
+
+
 def sequence_thread(thread):
     """Return labeled turns and the last customer message."""
     turns = []
-    last_customer_message = ""
+    messages = []
     for tweet in thread:
         message = clean_message(tweet["text"])
         if not message:
             continue
         speaker = speaker_label(tweet)
         turns.append(f"[{speaker}] - {message}")
-        if speaker == "customer":
-            last_customer_message = message
-    return turns, last_customer_message
+        messages.append((speaker, message))
+    return turns, last_customer_text(messages)
 
 
-def write_brand_files(conversations, output_dir):
+def write_brand_files(conversations, output_dir, brand_filter=None):
     """Write one conversation file and one last-customer file per brand."""
     handles = {}
     counts = {}
     try:
         for thread in conversations:
             turns, last_customer_message = sequence_thread(thread)
-            if not turns:
+            if not turns or not last_customer_message:
                 continue
             conversation_id = thread[0]["tweet_id"].strip()
             conversation = " | ".join(turns)
-            for brand in brand_authors(thread) or ["unknown"]:
+            brands = brand_authors(thread) or ["unknown"]
+            if brand_filter is not None:
+                brands = [brand for brand in brands if brand == brand_filter]
+            for brand in brands:
                 pair = handles.get(brand)
                 if pair is None:
                     brand_dir = output_dir / brand
@@ -144,13 +179,17 @@ def main():
         default="data/conversations_sequenced",
         help="Directory for per-brand output (default: data/conversations_sequenced)",
     )
+    parser.add_argument(
+        "--brand",
+        help="Write only this brand folder (for example AirbnbHelp)",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
     output_dir = Path(args.output)
     tweets = load_tweets(input_path)
     conversations = group_conversations(tweets)
-    counts = write_brand_files(conversations, output_dir)
+    counts = write_brand_files(conversations, output_dir, args.brand)
 
     conversation_count = sum(counts.values())
     print(f"Read {len(tweets)} tweets from {input_path}")
