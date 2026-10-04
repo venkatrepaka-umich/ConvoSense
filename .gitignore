@@ -226,6 +226,9 @@ models/
 .DS_Store
 
 potato/
-annotator_packages/
+annotator_packages/.venv/
+annotator_packages/**/annotation_output
+annotator_packages/**/layouts
+annotator_packages/*.zip
 potato/project.sqlite*
 potato/annotation_output/
