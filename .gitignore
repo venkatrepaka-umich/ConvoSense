@@ -224,3 +224,8 @@ data
 sample_data
 models/
 .DS_Store
+
+potato/
+annotator_packages/
+potato/project.sqlite*
+potato/annotation_output/
