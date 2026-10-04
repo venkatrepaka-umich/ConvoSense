@@ -8,7 +8,7 @@ want to:
     annotator_packages/
       manifest.json
       annotator_01/
-        README.txt
+        README.md
         batch_1/{data.jsonl, config.yaml, run.sh, run.bat}
         batch_2/...
       annotator_01.zip
@@ -58,38 +58,50 @@ echo Open http://localhost:8000 in your browser. Press Ctrl+C here when you are 
 .venv\\Scripts\\potato start config.yaml -p 8000
 """
 
-README = """Conversation Sense annotation - {annotator}
+README = """# Conversation Sense annotation - {annotator}
 
-What you do
-  Read each customer-support conversation and pick its sense, as described in
-  the annotation guidelines: {guidelines}
+## What you do
 
-Requirements
-  Python 3 (python.org). Nothing else; the script installs the annotation tool
-  (Potato {potato}) into the batch folder the first time.
+Read each customer-support conversation and pick its sense, as described in
+the annotation guidelines: {guidelines}
 
-Steps
-  1. Unzip this folder. Open batch_1.
-  2. Mac/Linux: open a terminal in batch_1 and run   bash run.sh
-     Windows:   double-click run.bat
-     The first run takes a minute or two to install.
-  3. Open http://localhost:8000 in your browser and log in with the username
-     {annotator} (exactly this, so your labels are attributed to you).
-  4. Label all {per_batch} conversations. Your answers save automatically and you
-     can stop and resume later by running the script again.
-  5. Press Ctrl+C in the terminal to stop the tool.
+## Requirements
 
-Want to do more?
-  Batch 2 is a separate set of {per_batch} conversations. Repeat the steps in
-  batch_2. Run only one batch at a time (they share port 8000).
+Python 3 (python.org). Nothing else; the script installs the annotation tool
+(Potato {potato}) into the batch folder the first time.
 
-Send back
-  For each batch you completed, send this file:
-    batch_N/annotation_output/exports/jsonl/annotations.jsonl
-  If it is missing, zip and send the whole batch_N/annotation_output folder.
-  Please include the batch number in the email/message.
+## Steps
 
-Questions: {contact}
+1. Unzip this folder. Open `batch_1`.
+2. Start the tool:
+   - Mac/Linux: open a terminal in `batch_1` and run `bash run.sh`
+   - Windows: double-click `run.bat`
+
+   The first run takes a minute or two to install.
+3. Open <http://localhost:8000> in your browser and log in with the username
+   `{annotator}` (exactly this, so your labels are attributed to you).
+4. Label all {per_batch} conversations. Your answers save automatically and you
+   can stop and resume later by running the script again.
+5. Press Ctrl+C in the terminal to stop the tool.
+
+## Want to do more?
+
+`batch_2` is a separate set of {per_batch} conversations. Repeat the steps in
+`batch_2`. Run only one batch at a time (they share port 8000).
+
+## Send back
+
+When a batch is finished, zip the whole `annotation_output` folder inside it
+and send the zip to the contact below:
+
+- `batch_N/annotation_output/` -> `annotation_output.zip`
+
+Please name the zip with your username and batch, for example
+`{annotator}_batch_1.zip`. Do this for each batch you completed.
+
+## Questions
+
+{contact}
 """
 
 
@@ -188,7 +200,7 @@ def main():
             cursor += args.per_batch
             write_batch(folder / f"batch_{b}", chunk, config_text, rng)
             manifest[f"{annotator}/batch_{b}"] = [row["id"] for row in chunk]
-        (folder / "README.txt").write_text(
+        (folder / "README.md").write_text(
             README.format(
                 annotator=annotator,
                 per_batch=args.per_batch,

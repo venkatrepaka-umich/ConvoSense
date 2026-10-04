@@ -230,5 +230,11 @@ annotator_packages/.venv/
 annotator_packages/**/annotation_output
 annotator_packages/**/layouts
 annotator_packages/*.zip
+
+annotator_packages_overlap/.venv/
+annotator_packages_overlap/**/annotation_output
+annotator_packages_overlap/**/layouts
+annotator_packages_overlap/*.zip
+
 potato/project.sqlite*
 potato/annotation_output/
