@@ -4,6 +4,88 @@ Group [Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvecto
 
 Tweets are linked through `response_tweet_id` and `in_response_to_tweet_id`.
 
+## 1. Raw data
+
+- **Source:** the [Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) dataset (Kaggle, `thoughtvector`), file `twcs/twcs.csv`. Download it from Kaggle and place it at `data/twcs/twcs.csv`. We did not scrape Twitter ourselves.
+- **Content:** public tweets between customers and the support accounts of 108 brands.
+- **Instance in the raw file:** one tweet (one row).
+- **Number of instances:** 2,811,774 tweets, of which 1,537,843 are customer tweets (`inbound` is true) and 1,273,931 are company replies.
+- **Collection period:** almost all tweets are from 2017-10-03 to 2017-12-03 (first to last percentile of tweet times). A small number of older tweets (20,813) go back to 2008, mostly earlier messages in the same threads.
+- **Chosen brand:** **AmazonHelp**. We picked one brand so every annotator sees the same kind of company and customer problems.
+
+## 2. License
+
+- **Raw dataset:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), as given for the Kaggle dataset. The tweets were also posted on Twitter, so Twitter's terms of service apply to the tweet text.
+- **Our processed data and labels:** because of the ShareAlike term, the processed conversations and the labels our annotators add are shared under the same license, CC BY-NC-SA 4.0, with attribution to the original dataset. Use is non-commercial only.
+- **Code** in this repository is under the MIT License (see `LICENSE`).
+
+## 3. Raw data dictionary
+
+`data/twcs/twcs.csv`, one tweet per row:
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `tweet_id` | int | Unique id of the tweet. |
+| `author_id` | string | Numeric id of a customer, or the handle of the company (for example `AmazonHelp`). |
+| `inbound` | bool | `True` when the tweet was sent to a company (customer tweet). `False` when the company sent it. |
+| `created_at` | string | Time the tweet was posted, for example `Tue Oct 31 22:10:47 +0000 2017`. |
+| `text` | string | Tweet text. It contains `@mentions`, URLs, emoji and agent sign-offs such as `^AJ`. |
+| `response_tweet_id` | string | Comma-separated ids of tweets that reply to this one. Empty if none. |
+| `in_response_to_tweet_id` | int | Id of the tweet this one replies to. Empty if it starts a thread. |
+
+## 4. Data transformation pipeline
+
+Each step reads the output of the previous one. The commands are under "How to run".
+
+1. **Group** (`group_conversations.py`). Tweets are linked into threads with `response_tweet_id` and `in_response_to_tweet_id` (union-find over the reply links), ordered by `created_at`. `@mentions` are removed, so author ids do not appear in the text. A thread belongs to the brand whose `author_id` replied (`inbound` is false).
+2. **Sequence** (`sequence_conversations.py`). Each tweet becomes a `[customer]` or `[agent]` turn from the `inbound` flag. HTML entities are decoded, agent sign-offs (`^AJ`) are removed, URLs become `[link]` and image URLs become `[image]`. Empty tweets are skipped, and a conversation with no customer message left is dropped. The last customer turn is saved as `last_customer_message`.
+3. **Translate and filter languages** (`translate_conversations.py`).
+   - The language of every message is detected with **fastText** (`fasttext-wheel`, model `lid.176.ftz`). A prediction counts only with confidence of at least 0.45. `[link]` and `[image]` are ignored, and a message with no letters (for example only emoji) is treated as neutral and kept.
+   - **English** messages are kept unchanged.
+   - **Spanish** messages are translated to English with **Argos Translate** (`argostranslate`, offline model `es` to `en`). Translation is done per sentence piece, and `[link]` and `[image]` are kept in place.
+   - A conversation is **dropped when any message is in another language** (or is below the confidence threshold). Nothing is translated from any language other than Spanish.
+4. **Keep multi-turn conversations** (`select_multi_turn.py`). A conversation stays only if the customer has **at least 2 turns and the agent has at least 2 turns**, and it still has a last customer message. This removes one-question, one-answer threads, which are the large majority of threads, so annotators see tone develop over a real exchange.
+5. **JSONL** (`jsonl_converter.py`). The final CSV is written as JSONL for the annotation tool (Potato).
+
+Number of AmazonHelp conversations after each step:
+
+| Step | Output | Conversations |
+| --- | --- | --- |
+| 1. Group | `data/conversations/` | 798,012 threads for all brands. 82,534 threads (374,042 tweets) with an AmazonHelp reply |
+| 2. Sequence | `data/conversations_sequenced/` | 82,408 (126 had no usable text or no customer message left) |
+| 3. Translate and language filter | `data/conversations_sequenced_cleaned/` | 60,601 |
+| 4. Keep multi-turn | `data/conversations_multi/AmazonHelp.csv` | 25,421 |
+| 5. JSONL | `data/conversations_multi_jsonl/AmazonHelp/conversations.jsonl` | 25,421 |
+
+## 5. Final instances and data dictionary
+
+- **Instance:** one customer-support conversation on Twitter between a customer and the Amazon support account, written on one line with labeled turns (`[customer] - ...` / `[agent] - ...`) in time order. The annotation task is to label the customer's tone in the last customer message (see `Customer Tone Annotation Guidelines.md`).
+- **Number of instances:** **25,421** conversations.
+- **Size:** 171,478 turns in total (mean 6.7, median 6, max 139 per conversation) and about 153 words per conversation on average (median 125).
+
+`data/conversations_multi_jsonl/AmazonHelp/conversations.jsonl`, one JSON object per line:
+
+| Field | Meaning |
+| --- | --- |
+| `id` | `tweet_id` of the first tweet in the thread. |
+| `brand` | Always `AmazonHelp`. |
+| `conversation` | Whole conversation, turns separated by ` | `, each turn written `[customer] - text` or `[agent] - text`. `@mentions`, agent sign-offs and URLs are removed or replaced by `[link]` and `[image]`. |
+| `last_customer_message` | The last customer turn, or the last run of customer turns. This is what annotators label. |
+
+The CSV versions have the columns `conversation_id`, `conversation` and `last_customer_message` (steps 2 and 3 keep the last customer message in its own file).
+
+### Sampling and missing data
+
+- AmazonHelp was chosen from the 108 brands, and every AmazonHelp conversation that passes the steps above is kept. No random sample is taken at this stage. Annotation batches are drawn in step 6.
+- Conversations with a language other than English or Spanish are removed, so the dataset is not representative of all Amazon customers. Spanish messages are machine translated and may read awkwardly.
+- Links, images, user handles and agent sign-offs are removed or replaced, so some context is lost. Messages can also be cut short by Twitter's length limit.
+- There are no empty tweets in the raw file. Tweets from customers who later deleted them may be missing from threads, which can leave an agent turn without its question.
+- Tweets are public, and author ids are removed from the text, but the text itself may still contain names or other personal details that a customer wrote.
+
+### Estimated time per item
+
+Reading one conversation (about 150 words) and picking a tone label takes about **30 to 45 seconds**, so one annotator can label about 80 to 100 items in an hour. This is why each batch is 100 conversations. Replace this with the measured time from our own annotation before submitting.
+
 ## Setup
 
 Requires Python 3.
@@ -22,7 +104,7 @@ On Windows, activate the environment with:
 
 ## How to run
 
-The pipeline has four steps. `src/pipeline/sequence_conversations.py` is required: `src/pipeline/translate_conversations.py` reads the labeled files it writes, not the raw tweets.
+The pipeline has six steps. `src/pipeline/sequence_conversations.py` is required: `src/pipeline/translate_conversations.py` reads the labeled files it writes, not the raw tweets.
 
 ### 1. Group tweets
 
@@ -83,7 +165,25 @@ That reads every brand under `data/conversations_sequenced` and writes `data/con
 python src/pipeline/translate_conversations.py data/conversations_sequenced/AirbnbHelp -o data/conversations_sequenced_cleaned/AirbnbHelp
 ```
 
-### 4. Build annotator packages with shared overlap
+### 4. Keep multi-turn conversations
+
+`src/pipeline/select_multi_turn.py` keeps conversations where the customer and the agent each speak at least twice.
+
+```bash
+python src/pipeline/select_multi_turn.py
+```
+
+That reads `data/conversations_sequenced_cleaned/AmazonHelp` and writes `data/conversations_multi/AmazonHelp.csv`.
+
+### 5. Convert to JSONL
+
+```bash
+python src/pipeline/jsonl_converter.py
+```
+
+That reads `data/conversations_multi` and writes `data/conversations_multi_jsonl/<brand>/conversations.jsonl`.
+
+### 6. Build annotator packages with shared overlap
 
 `src/pipeline/make_overlap_annotator_packages.py` reads one brand's conversations as JSONL (one object per line with `id`, `brand`, `conversation` and `last_customer_message`) and writes one Potato package per annotator. Each annotator gets two batch folders of 100 conversations, so someone who wants to contribute more can do the second.
 
