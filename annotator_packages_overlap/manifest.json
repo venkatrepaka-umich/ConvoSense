@@ -1,0 +1,4826 @@
+{
+  "annotator_01/batch_1": [
+    {
+      "id": "1832072",
+      "group": "all"
+    },
+    {
+      "id": "288998",
+      "group": "all"
+    },
+    {
+      "id": "2184793",
+      "group": "all"
+    },
+    {
+      "id": "1554844",
+      "group": "all"
+    },
+    {
+      "id": "394885",
+      "group": "all"
+    },
+    {
+      "id": "2938314",
+      "group": "all"
+    },
+    {
+      "id": "2305051",
+      "group": "all"
+    },
+    {
+      "id": "386208",
+      "group": "all"
+    },
+    {
+      "id": "210410",
+      "group": "all"
+    },
+    {
+      "id": "379647",
+      "group": "all"
+    },
+    {
+      "id": "1721554",
+      "group": "all"
+    },
+    {
+      "id": "1950128",
+      "group": "all"
+    },
+    {
+      "id": "2962806",
+      "group": "all"
+    },
+    {
+      "id": "1003675",
+      "group": "all"
+    },
+    {
+      "id": "2906627",
+      "group": "all"
+    },
+    {
+      "id": "2542955",
+      "group": "all"
+    },
+    {
+      "id": "1950205",
+      "group": "all"
+    },
+    {
+      "id": "1688875",
+      "group": "all"
+    },
+    {
+      "id": "2930623",
+      "group": "all"
+    },
+    {
+      "id": "1447136",
+      "group": "all"
+    },
+    {
+      "id": "1447218",
+      "group": "pair"
+    },
+    {
+      "id": "2555150",
+      "group": "pair"
+    },
+    {
+      "id": "2154021",
+      "group": "pair"
+    },
+    {
+      "id": "245911",
+      "group": "triple"
+    },
+    {
+      "id": "490661",
+      "group": "triple"
+    },
+    {
+      "id": "744159",
+      "group": "triple"
+    },
+    {
+      "id": "2444016",
+      "group": "unique"
+    },
+    {
+      "id": "1301814",
+      "group": "unique"
+    },
+    {
+      "id": "2219931",
+      "group": "unique"
+    },
+    {
+      "id": "783363",
+      "group": "unique"
+    },
+    {
+      "id": "529038",
+      "group": "unique"
+    },
+    {
+      "id": "372182",
+      "group": "unique"
+    },
+    {
+      "id": "275568",
+      "group": "unique"
+    },
+    {
+      "id": "2236238",
+      "group": "unique"
+    },
+    {
+      "id": "166433",
+      "group": "unique"
+    },
+    {
+      "id": "2755667",
+      "group": "unique"
+    },
+    {
+      "id": "710049",
+      "group": "unique"
+    },
+    {
+      "id": "377041",
+      "group": "unique"
+    },
+    {
+      "id": "2622559",
+      "group": "unique"
+    },
+    {
+      "id": "2166062",
+      "group": "unique"
+    },
+    {
+      "id": "2459176",
+      "group": "unique"
+    },
+    {
+      "id": "1124101",
+      "group": "unique"
+    },
+    {
+      "id": "833647",
+      "group": "unique"
+    },
+    {
+      "id": "2677342",
+      "group": "unique"
+    },
+    {
+      "id": "353586",
+      "group": "unique"
+    },
+    {
+      "id": "970489",
+      "group": "unique"
+    },
+    {
+      "id": "1432292",
+      "group": "unique"
+    },
+    {
+      "id": "1235523",
+      "group": "unique"
+    },
+    {
+      "id": "1099841",
+      "group": "unique"
+    },
+    {
+      "id": "815479",
+      "group": "unique"
+    },
+    {
+      "id": "1387098",
+      "group": "unique"
+    },
+    {
+      "id": "2966410",
+      "group": "unique"
+    },
+    {
+      "id": "1311574",
+      "group": "unique"
+    },
+    {
+      "id": "133789",
+      "group": "unique"
+    },
+    {
+      "id": "2826414",
+      "group": "unique"
+    },
+    {
+      "id": "2590176",
+      "group": "unique"
+    },
+    {
+      "id": "418988",
+      "group": "unique"
+    },
+    {
+      "id": "2870696",
+      "group": "unique"
+    },
+    {
+      "id": "2720001",
+      "group": "unique"
+    },
+    {
+      "id": "1299544",
+      "group": "unique"
+    },
+    {
+      "id": "2855115",
+      "group": "unique"
+    },
+    {
+      "id": "726591",
+      "group": "unique"
+    },
+    {
+      "id": "837121",
+      "group": "unique"
+    },
+    {
+      "id": "1119595",
+      "group": "unique"
+    },
+    {
+      "id": "765429",
+      "group": "unique"
+    },
+    {
+      "id": "734119",
+      "group": "unique"
+    },
+    {
+      "id": "500770",
+      "group": "unique"
+    },
+    {
+      "id": "2714656",
+      "group": "unique"
+    },
+    {
+      "id": "1073290",
+      "group": "unique"
+    },
+    {
+      "id": "1166657",
+      "group": "unique"
+    },
+    {
+      "id": "1203470",
+      "group": "unique"
+    },
+    {
+      "id": "588777",
+      "group": "unique"
+    },
+    {
+      "id": "2126255",
+      "group": "unique"
+    },
+    {
+      "id": "96677",
+      "group": "unique"
+    },
+    {
+      "id": "2606159",
+      "group": "unique"
+    },
+    {
+      "id": "1939130",
+      "group": "unique"
+    },
+    {
+      "id": "2924561",
+      "group": "unique"
+    },
+    {
+      "id": "43742",
+      "group": "unique"
+    },
+    {
+      "id": "1117727",
+      "group": "unique"
+    },
+    {
+      "id": "2457789",
+      "group": "unique"
+    },
+    {
+      "id": "2360500",
+      "group": "unique"
+    },
+    {
+      "id": "1022533",
+      "group": "unique"
+    },
+    {
+      "id": "313460",
+      "group": "unique"
+    },
+    {
+      "id": "425382",
+      "group": "unique"
+    },
+    {
+      "id": "1238795",
+      "group": "unique"
+    },
+    {
+      "id": "1722482",
+      "group": "unique"
+    },
+    {
+      "id": "1199440",
+      "group": "unique"
+    },
+    {
+      "id": "291348",
+      "group": "unique"
+    },
+    {
+      "id": "420290",
+      "group": "unique"
+    },
+    {
+      "id": "2480952",
+      "group": "unique"
+    },
+    {
+      "id": "594516",
+      "group": "unique"
+    },
+    {
+      "id": "828297",
+      "group": "unique"
+    },
+    {
+      "id": "1548334",
+      "group": "unique"
+    },
+    {
+      "id": "1091307",
+      "group": "unique"
+    },
+    {
+      "id": "1133476",
+      "group": "unique"
+    },
+    {
+      "id": "497308",
+      "group": "unique"
+    },
+    {
+      "id": "2113714",
+      "group": "unique"
+    },
+    {
+      "id": "2704934",
+      "group": "unique"
+    },
+    {
+      "id": "2972846",
+      "group": "unique"
+    },
+    {
+      "id": "1736208",
+      "group": "unique"
+    }
+  ],
+  "annotator_01/batch_2": [
+    {
+      "id": "1927893",
+      "group": "all"
+    },
+    {
+      "id": "1223589",
+      "group": "all"
+    },
+    {
+      "id": "492180",
+      "group": "all"
+    },
+    {
+      "id": "269470",
+      "group": "all"
+    },
+    {
+      "id": "2170649",
+      "group": "all"
+    },
+    {
+      "id": "320824",
+      "group": "all"
+    },
+    {
+      "id": "2213168",
+      "group": "all"
+    },
+    {
+      "id": "1806534",
+      "group": "all"
+    },
+    {
+      "id": "1664433",
+      "group": "all"
+    },
+    {
+      "id": "530722",
+      "group": "all"
+    },
+    {
+      "id": "347509",
+      "group": "all"
+    },
+    {
+      "id": "2961741",
+      "group": "all"
+    },
+    {
+      "id": "1014848",
+      "group": "all"
+    },
+    {
+      "id": "142056",
+      "group": "all"
+    },
+    {
+      "id": "2927056",
+      "group": "all"
+    },
+    {
+      "id": "1014852",
+      "group": "all"
+    },
+    {
+      "id": "2482400",
+      "group": "all"
+    },
+    {
+      "id": "1033165",
+      "group": "all"
+    },
+    {
+      "id": "512373",
+      "group": "all"
+    },
+    {
+      "id": "2074012",
+      "group": "all"
+    },
+    {
+      "id": "2171912",
+      "group": "pair"
+    },
+    {
+      "id": "656082",
+      "group": "pair"
+    },
+    {
+      "id": "2913238",
+      "group": "triple"
+    },
+    {
+      "id": "795105",
+      "group": "triple"
+    },
+    {
+      "id": "562921",
+      "group": "triple"
+    },
+    {
+      "id": "631719",
+      "group": "unique"
+    },
+    {
+      "id": "230213",
+      "group": "unique"
+    },
+    {
+      "id": "747686",
+      "group": "unique"
+    },
+    {
+      "id": "379851",
+      "group": "unique"
+    },
+    {
+      "id": "2934351",
+      "group": "unique"
+    },
+    {
+      "id": "987012",
+      "group": "unique"
+    },
+    {
+      "id": "2668766",
+      "group": "unique"
+    },
+    {
+      "id": "267735",
+      "group": "unique"
+    },
+    {
+      "id": "1441924",
+      "group": "unique"
+    },
+    {
+      "id": "1861009",
+      "group": "unique"
+    },
+    {
+      "id": "2710887",
+      "group": "unique"
+    },
+    {
+      "id": "982263",
+      "group": "unique"
+    },
+    {
+      "id": "1741031",
+      "group": "unique"
+    },
+    {
+      "id": "812179",
+      "group": "unique"
+    },
+    {
+      "id": "283084",
+      "group": "unique"
+    },
+    {
+      "id": "1341641",
+      "group": "unique"
+    },
+    {
+      "id": "1415551",
+      "group": "unique"
+    },
+    {
+      "id": "279525",
+      "group": "unique"
+    },
+    {
+      "id": "38139",
+      "group": "unique"
+    },
+    {
+      "id": "2115651",
+      "group": "unique"
+    },
+    {
+      "id": "2906570",
+      "group": "unique"
+    },
+    {
+      "id": "1014832",
+      "group": "unique"
+    },
+    {
+      "id": "2867113",
+      "group": "unique"
+    },
+    {
+      "id": "724619",
+      "group": "unique"
+    },
+    {
+      "id": "11085",
+      "group": "unique"
+    },
+    {
+      "id": "2740662",
+      "group": "unique"
+    },
+    {
+      "id": "1618355",
+      "group": "unique"
+    },
+    {
+      "id": "164833",
+      "group": "unique"
+    },
+    {
+      "id": "523444",
+      "group": "unique"
+    },
+    {
+      "id": "1049124",
+      "group": "unique"
+    },
+    {
+      "id": "932220",
+      "group": "unique"
+    },
+    {
+      "id": "1144945",
+      "group": "unique"
+    },
+    {
+      "id": "1477260",
+      "group": "unique"
+    },
+    {
+      "id": "1664041",
+      "group": "unique"
+    },
+    {
+      "id": "227757",
+      "group": "unique"
+    },
+    {
+      "id": "1557322",
+      "group": "unique"
+    },
+    {
+      "id": "486083",
+      "group": "unique"
+    },
+    {
+      "id": "2464846",
+      "group": "unique"
+    },
+    {
+      "id": "1661464",
+      "group": "unique"
+    },
+    {
+      "id": "2875555",
+      "group": "unique"
+    },
+    {
+      "id": "481480",
+      "group": "unique"
+    },
+    {
+      "id": "994466",
+      "group": "unique"
+    },
+    {
+      "id": "1127137",
+      "group": "unique"
+    },
+    {
+      "id": "970611",
+      "group": "unique"
+    },
+    {
+      "id": "2960484",
+      "group": "unique"
+    },
+    {
+      "id": "738463",
+      "group": "unique"
+    },
+    {
+      "id": "1498592",
+      "group": "unique"
+    },
+    {
+      "id": "276105",
+      "group": "unique"
+    },
+    {
+      "id": "2289548",
+      "group": "unique"
+    },
+    {
+      "id": "2384170",
+      "group": "unique"
+    },
+    {
+      "id": "1887465",
+      "group": "unique"
+    },
+    {
+      "id": "2254628",
+      "group": "unique"
+    },
+    {
+      "id": "2680301",
+      "group": "unique"
+    },
+    {
+      "id": "1323928",
+      "group": "unique"
+    },
+    {
+      "id": "852803",
+      "group": "unique"
+    },
+    {
+      "id": "2385228",
+      "group": "unique"
+    },
+    {
+      "id": "225252",
+      "group": "unique"
+    },
+    {
+      "id": "2845442",
+      "group": "unique"
+    },
+    {
+      "id": "1794060",
+      "group": "unique"
+    },
+    {
+      "id": "1570948",
+      "group": "unique"
+    },
+    {
+      "id": "2417001",
+      "group": "unique"
+    },
+    {
+      "id": "1206830",
+      "group": "unique"
+    },
+    {
+      "id": "356739",
+      "group": "unique"
+    },
+    {
+      "id": "602229",
+      "group": "unique"
+    },
+    {
+      "id": "1206893",
+      "group": "unique"
+    },
+    {
+      "id": "2686757",
+      "group": "unique"
+    },
+    {
+      "id": "2200745",
+      "group": "unique"
+    },
+    {
+      "id": "2473405",
+      "group": "unique"
+    },
+    {
+      "id": "1579696",
+      "group": "unique"
+    },
+    {
+      "id": "2899547",
+      "group": "unique"
+    },
+    {
+      "id": "2615090",
+      "group": "unique"
+    },
+    {
+      "id": "2450886",
+      "group": "unique"
+    },
+    {
+      "id": "232896",
+      "group": "unique"
+    },
+    {
+      "id": "765435",
+      "group": "unique"
+    },
+    {
+      "id": "1095119",
+      "group": "unique"
+    }
+  ],
+  "annotator_02/batch_1": [
+    {
+      "id": "1832072",
+      "group": "all"
+    },
+    {
+      "id": "288998",
+      "group": "all"
+    },
+    {
+      "id": "2184793",
+      "group": "all"
+    },
+    {
+      "id": "1554844",
+      "group": "all"
+    },
+    {
+      "id": "394885",
+      "group": "all"
+    },
+    {
+      "id": "2938314",
+      "group": "all"
+    },
+    {
+      "id": "2305051",
+      "group": "all"
+    },
+    {
+      "id": "386208",
+      "group": "all"
+    },
+    {
+      "id": "210410",
+      "group": "all"
+    },
+    {
+      "id": "379647",
+      "group": "all"
+    },
+    {
+      "id": "1721554",
+      "group": "all"
+    },
+    {
+      "id": "1950128",
+      "group": "all"
+    },
+    {
+      "id": "2962806",
+      "group": "all"
+    },
+    {
+      "id": "1003675",
+      "group": "all"
+    },
+    {
+      "id": "2906627",
+      "group": "all"
+    },
+    {
+      "id": "2542955",
+      "group": "all"
+    },
+    {
+      "id": "1950205",
+      "group": "all"
+    },
+    {
+      "id": "1688875",
+      "group": "all"
+    },
+    {
+      "id": "2930623",
+      "group": "all"
+    },
+    {
+      "id": "1447136",
+      "group": "all"
+    },
+    {
+      "id": "1447218",
+      "group": "pair"
+    },
+    {
+      "id": "1429170",
+      "group": "pair"
+    },
+    {
+      "id": "2154021",
+      "group": "pair"
+    },
+    {
+      "id": "667672",
+      "group": "pair"
+    },
+    {
+      "id": "1599029",
+      "group": "triple"
+    },
+    {
+      "id": "197758",
+      "group": "triple"
+    },
+    {
+      "id": "1530924",
+      "group": "unique"
+    },
+    {
+      "id": "169498",
+      "group": "unique"
+    },
+    {
+      "id": "1114918",
+      "group": "unique"
+    },
+    {
+      "id": "275165",
+      "group": "unique"
+    },
+    {
+      "id": "738378",
+      "group": "unique"
+    },
+    {
+      "id": "667766",
+      "group": "unique"
+    },
+    {
+      "id": "1771827",
+      "group": "unique"
+    },
+    {
+      "id": "2662424",
+      "group": "unique"
+    },
+    {
+      "id": "466653",
+      "group": "unique"
+    },
+    {
+      "id": "1367506",
+      "group": "unique"
+    },
+    {
+      "id": "1881142",
+      "group": "unique"
+    },
+    {
+      "id": "111970",
+      "group": "unique"
+    },
+    {
+      "id": "2487075",
+      "group": "unique"
+    },
+    {
+      "id": "769591",
+      "group": "unique"
+    },
+    {
+      "id": "1503955",
+      "group": "unique"
+    },
+    {
+      "id": "2791994",
+      "group": "unique"
+    },
+    {
+      "id": "1721464",
+      "group": "unique"
+    },
+    {
+      "id": "1044955",
+      "group": "unique"
+    },
+    {
+      "id": "291727",
+      "group": "unique"
+    },
+    {
+      "id": "2985522",
+      "group": "unique"
+    },
+    {
+      "id": "1775036",
+      "group": "unique"
+    },
+    {
+      "id": "365945",
+      "group": "unique"
+    },
+    {
+      "id": "2539008",
+      "group": "unique"
+    },
+    {
+      "id": "2628931",
+      "group": "unique"
+    },
+    {
+      "id": "2923537",
+      "group": "unique"
+    },
+    {
+      "id": "105286",
+      "group": "unique"
+    },
+    {
+      "id": "499964",
+      "group": "unique"
+    },
+    {
+      "id": "485378",
+      "group": "unique"
+    },
+    {
+      "id": "2878604",
+      "group": "unique"
+    },
+    {
+      "id": "1860001",
+      "group": "unique"
+    },
+    {
+      "id": "1413167",
+      "group": "unique"
+    },
+    {
+      "id": "1756505",
+      "group": "unique"
+    },
+    {
+      "id": "359491",
+      "group": "unique"
+    },
+    {
+      "id": "2858244",
+      "group": "unique"
+    },
+    {
+      "id": "2436378",
+      "group": "unique"
+    },
+    {
+      "id": "174498",
+      "group": "unique"
+    },
+    {
+      "id": "1368957",
+      "group": "unique"
+    },
+    {
+      "id": "798720",
+      "group": "unique"
+    },
+    {
+      "id": "105063",
+      "group": "unique"
+    },
+    {
+      "id": "1304681",
+      "group": "unique"
+    },
+    {
+      "id": "2463034",
+      "group": "unique"
+    },
+    {
+      "id": "1346658",
+      "group": "unique"
+    },
+    {
+      "id": "2867164",
+      "group": "unique"
+    },
+    {
+      "id": "1634640",
+      "group": "unique"
+    },
+    {
+      "id": "1850366",
+      "group": "unique"
+    },
+    {
+      "id": "1593388",
+      "group": "unique"
+    },
+    {
+      "id": "2949506",
+      "group": "unique"
+    },
+    {
+      "id": "1280562",
+      "group": "unique"
+    },
+    {
+      "id": "2719402",
+      "group": "unique"
+    },
+    {
+      "id": "810761",
+      "group": "unique"
+    },
+    {
+      "id": "1763529",
+      "group": "unique"
+    },
+    {
+      "id": "1716701",
+      "group": "unique"
+    },
+    {
+      "id": "2859835",
+      "group": "unique"
+    },
+    {
+      "id": "1489156",
+      "group": "unique"
+    },
+    {
+      "id": "2894674",
+      "group": "unique"
+    },
+    {
+      "id": "520710",
+      "group": "unique"
+    },
+    {
+      "id": "1416572",
+      "group": "unique"
+    },
+    {
+      "id": "144231",
+      "group": "unique"
+    },
+    {
+      "id": "799678",
+      "group": "unique"
+    },
+    {
+      "id": "1305612",
+      "group": "unique"
+    },
+    {
+      "id": "1616022",
+      "group": "unique"
+    },
+    {
+      "id": "2689322",
+      "group": "unique"
+    },
+    {
+      "id": "1625827",
+      "group": "unique"
+    },
+    {
+      "id": "1319018",
+      "group": "unique"
+    },
+    {
+      "id": "1242820",
+      "group": "unique"
+    },
+    {
+      "id": "916539",
+      "group": "unique"
+    },
+    {
+      "id": "1740993",
+      "group": "unique"
+    },
+    {
+      "id": "215738",
+      "group": "unique"
+    },
+    {
+      "id": "113774",
+      "group": "unique"
+    },
+    {
+      "id": "2828046",
+      "group": "unique"
+    },
+    {
+      "id": "1398469",
+      "group": "unique"
+    },
+    {
+      "id": "2283967",
+      "group": "unique"
+    },
+    {
+      "id": "2122291",
+      "group": "unique"
+    },
+    {
+      "id": "2113563",
+      "group": "unique"
+    }
+  ],
+  "annotator_02/batch_2": [
+    {
+      "id": "1927893",
+      "group": "all"
+    },
+    {
+      "id": "1223589",
+      "group": "all"
+    },
+    {
+      "id": "492180",
+      "group": "all"
+    },
+    {
+      "id": "269470",
+      "group": "all"
+    },
+    {
+      "id": "2170649",
+      "group": "all"
+    },
+    {
+      "id": "320824",
+      "group": "all"
+    },
+    {
+      "id": "2213168",
+      "group": "all"
+    },
+    {
+      "id": "1806534",
+      "group": "all"
+    },
+    {
+      "id": "1664433",
+      "group": "all"
+    },
+    {
+      "id": "530722",
+      "group": "all"
+    },
+    {
+      "id": "347509",
+      "group": "all"
+    },
+    {
+      "id": "2961741",
+      "group": "all"
+    },
+    {
+      "id": "1014848",
+      "group": "all"
+    },
+    {
+      "id": "142056",
+      "group": "all"
+    },
+    {
+      "id": "2927056",
+      "group": "all"
+    },
+    {
+      "id": "1014852",
+      "group": "all"
+    },
+    {
+      "id": "2482400",
+      "group": "all"
+    },
+    {
+      "id": "1033165",
+      "group": "all"
+    },
+    {
+      "id": "512373",
+      "group": "all"
+    },
+    {
+      "id": "2074012",
+      "group": "all"
+    },
+    {
+      "id": "2811755",
+      "group": "pair"
+    },
+    {
+      "id": "73595",
+      "group": "pair"
+    },
+    {
+      "id": "654274",
+      "group": "pair"
+    },
+    {
+      "id": "2913238",
+      "group": "triple"
+    },
+    {
+      "id": "562921",
+      "group": "triple"
+    },
+    {
+      "id": "2715153",
+      "group": "triple"
+    },
+    {
+      "id": "2890615",
+      "group": "unique"
+    },
+    {
+      "id": "2179030",
+      "group": "unique"
+    },
+    {
+      "id": "2478841",
+      "group": "unique"
+    },
+    {
+      "id": "2296547",
+      "group": "unique"
+    },
+    {
+      "id": "486809",
+      "group": "unique"
+    },
+    {
+      "id": "1318246",
+      "group": "unique"
+    },
+    {
+      "id": "2841715",
+      "group": "unique"
+    },
+    {
+      "id": "407432",
+      "group": "unique"
+    },
+    {
+      "id": "440340",
+      "group": "unique"
+    },
+    {
+      "id": "2511612",
+      "group": "unique"
+    },
+    {
+      "id": "2856619",
+      "group": "unique"
+    },
+    {
+      "id": "1020107",
+      "group": "unique"
+    },
+    {
+      "id": "160439",
+      "group": "unique"
+    },
+    {
+      "id": "2498494",
+      "group": "unique"
+    },
+    {
+      "id": "428649",
+      "group": "unique"
+    },
+    {
+      "id": "527626",
+      "group": "unique"
+    },
+    {
+      "id": "914816",
+      "group": "unique"
+    },
+    {
+      "id": "2884157",
+      "group": "unique"
+    },
+    {
+      "id": "1352159",
+      "group": "unique"
+    },
+    {
+      "id": "2399579",
+      "group": "unique"
+    },
+    {
+      "id": "1886074",
+      "group": "unique"
+    },
+    {
+      "id": "979609",
+      "group": "unique"
+    },
+    {
+      "id": "226382",
+      "group": "unique"
+    },
+    {
+      "id": "296761",
+      "group": "unique"
+    },
+    {
+      "id": "13165",
+      "group": "unique"
+    },
+    {
+      "id": "2300049",
+      "group": "unique"
+    },
+    {
+      "id": "132459",
+      "group": "unique"
+    },
+    {
+      "id": "585813",
+      "group": "unique"
+    },
+    {
+      "id": "373953",
+      "group": "unique"
+    },
+    {
+      "id": "2216592",
+      "group": "unique"
+    },
+    {
+      "id": "1674830",
+      "group": "unique"
+    },
+    {
+      "id": "1616261",
+      "group": "unique"
+    },
+    {
+      "id": "2786302",
+      "group": "unique"
+    },
+    {
+      "id": "1830696",
+      "group": "unique"
+    },
+    {
+      "id": "101791",
+      "group": "unique"
+    },
+    {
+      "id": "2946827",
+      "group": "unique"
+    },
+    {
+      "id": "1500740",
+      "group": "unique"
+    },
+    {
+      "id": "2387906",
+      "group": "unique"
+    },
+    {
+      "id": "1578299",
+      "group": "unique"
+    },
+    {
+      "id": "971010",
+      "group": "unique"
+    },
+    {
+      "id": "980773",
+      "group": "unique"
+    },
+    {
+      "id": "2831613",
+      "group": "unique"
+    },
+    {
+      "id": "2924502",
+      "group": "unique"
+    },
+    {
+      "id": "319692",
+      "group": "unique"
+    },
+    {
+      "id": "527641",
+      "group": "unique"
+    },
+    {
+      "id": "590851",
+      "group": "unique"
+    },
+    {
+      "id": "439639",
+      "group": "unique"
+    },
+    {
+      "id": "264405",
+      "group": "unique"
+    },
+    {
+      "id": "2311238",
+      "group": "unique"
+    },
+    {
+      "id": "1449013",
+      "group": "unique"
+    },
+    {
+      "id": "2946861",
+      "group": "unique"
+    },
+    {
+      "id": "2528265",
+      "group": "unique"
+    },
+    {
+      "id": "2273288",
+      "group": "unique"
+    },
+    {
+      "id": "311601",
+      "group": "unique"
+    },
+    {
+      "id": "2726771",
+      "group": "unique"
+    },
+    {
+      "id": "1013061",
+      "group": "unique"
+    },
+    {
+      "id": "788659",
+      "group": "unique"
+    },
+    {
+      "id": "2220074",
+      "group": "unique"
+    },
+    {
+      "id": "834827",
+      "group": "unique"
+    },
+    {
+      "id": "2273219",
+      "group": "unique"
+    },
+    {
+      "id": "2869540",
+      "group": "unique"
+    },
+    {
+      "id": "2599658",
+      "group": "unique"
+    },
+    {
+      "id": "2154253",
+      "group": "unique"
+    },
+    {
+      "id": "661400",
+      "group": "unique"
+    },
+    {
+      "id": "1381174",
+      "group": "unique"
+    },
+    {
+      "id": "537414",
+      "group": "unique"
+    },
+    {
+      "id": "2113543",
+      "group": "unique"
+    },
+    {
+      "id": "136169",
+      "group": "unique"
+    },
+    {
+      "id": "102930",
+      "group": "unique"
+    },
+    {
+      "id": "2447259",
+      "group": "unique"
+    },
+    {
+      "id": "1733897",
+      "group": "unique"
+    },
+    {
+      "id": "2689303",
+      "group": "unique"
+    },
+    {
+      "id": "2136181",
+      "group": "unique"
+    },
+    {
+      "id": "1108802",
+      "group": "unique"
+    }
+  ],
+  "annotator_03/batch_1": [
+    {
+      "id": "1832072",
+      "group": "all"
+    },
+    {
+      "id": "288998",
+      "group": "all"
+    },
+    {
+      "id": "2184793",
+      "group": "all"
+    },
+    {
+      "id": "1554844",
+      "group": "all"
+    },
+    {
+      "id": "394885",
+      "group": "all"
+    },
+    {
+      "id": "2938314",
+      "group": "all"
+    },
+    {
+      "id": "2305051",
+      "group": "all"
+    },
+    {
+      "id": "386208",
+      "group": "all"
+    },
+    {
+      "id": "210410",
+      "group": "all"
+    },
+    {
+      "id": "379647",
+      "group": "all"
+    },
+    {
+      "id": "1721554",
+      "group": "all"
+    },
+    {
+      "id": "1950128",
+      "group": "all"
+    },
+    {
+      "id": "2962806",
+      "group": "all"
+    },
+    {
+      "id": "1003675",
+      "group": "all"
+    },
+    {
+      "id": "2906627",
+      "group": "all"
+    },
+    {
+      "id": "2542955",
+      "group": "all"
+    },
+    {
+      "id": "1950205",
+      "group": "all"
+    },
+    {
+      "id": "1688875",
+      "group": "all"
+    },
+    {
+      "id": "2930623",
+      "group": "all"
+    },
+    {
+      "id": "1447136",
+      "group": "all"
+    },
+    {
+      "id": "2555150",
+      "group": "pair"
+    },
+    {
+      "id": "2426017",
+      "group": "pair"
+    },
+    {
+      "id": "667672",
+      "group": "pair"
+    },
+    {
+      "id": "197758",
+      "group": "triple"
+    },
+    {
+      "id": "490661",
+      "group": "triple"
+    },
+    {
+      "id": "744159",
+      "group": "triple"
+    },
+    {
+      "id": "504918",
+      "group": "unique"
+    },
+    {
+      "id": "2299308",
+      "group": "unique"
+    },
+    {
+      "id": "2166474",
+      "group": "unique"
+    },
+    {
+      "id": "1082907",
+      "group": "unique"
+    },
+    {
+      "id": "529116",
+      "group": "unique"
+    },
+    {
+      "id": "990985",
+      "group": "unique"
+    },
+    {
+      "id": "1791176",
+      "group": "unique"
+    },
+    {
+      "id": "1188616",
+      "group": "unique"
+    },
+    {
+      "id": "575902",
+      "group": "unique"
+    },
+    {
+      "id": "2541744",
+      "group": "unique"
+    },
+    {
+      "id": "2341963",
+      "group": "unique"
+    },
+    {
+      "id": "735046",
+      "group": "unique"
+    },
+    {
+      "id": "944896",
+      "group": "unique"
+    },
+    {
+      "id": "1187089",
+      "group": "unique"
+    },
+    {
+      "id": "2104264",
+      "group": "unique"
+    },
+    {
+      "id": "384822",
+      "group": "unique"
+    },
+    {
+      "id": "80798",
+      "group": "unique"
+    },
+    {
+      "id": "1228670",
+      "group": "unique"
+    },
+    {
+      "id": "913830",
+      "group": "unique"
+    },
+    {
+      "id": "1153766",
+      "group": "unique"
+    },
+    {
+      "id": "2511468",
+      "group": "unique"
+    },
+    {
+      "id": "1389133",
+      "group": "unique"
+    },
+    {
+      "id": "2171165",
+      "group": "unique"
+    },
+    {
+      "id": "391157",
+      "group": "unique"
+    },
+    {
+      "id": "870060",
+      "group": "unique"
+    },
+    {
+      "id": "1006625",
+      "group": "unique"
+    },
+    {
+      "id": "884938",
+      "group": "unique"
+    },
+    {
+      "id": "1507958",
+      "group": "unique"
+    },
+    {
+      "id": "2942013",
+      "group": "unique"
+    },
+    {
+      "id": "1026011",
+      "group": "unique"
+    },
+    {
+      "id": "95437",
+      "group": "unique"
+    },
+    {
+      "id": "2182132",
+      "group": "unique"
+    },
+    {
+      "id": "348404",
+      "group": "unique"
+    },
+    {
+      "id": "1427904",
+      "group": "unique"
+    },
+    {
+      "id": "1626645",
+      "group": "unique"
+    },
+    {
+      "id": "2438186",
+      "group": "unique"
+    },
+    {
+      "id": "688576",
+      "group": "unique"
+    },
+    {
+      "id": "2276465",
+      "group": "unique"
+    },
+    {
+      "id": "1680961",
+      "group": "unique"
+    },
+    {
+      "id": "338589",
+      "group": "unique"
+    },
+    {
+      "id": "2025526",
+      "group": "unique"
+    },
+    {
+      "id": "1380624",
+      "group": "unique"
+    },
+    {
+      "id": "1525957",
+      "group": "unique"
+    },
+    {
+      "id": "588703",
+      "group": "unique"
+    },
+    {
+      "id": "442757",
+      "group": "unique"
+    },
+    {
+      "id": "2944264",
+      "group": "unique"
+    },
+    {
+      "id": "193073",
+      "group": "unique"
+    },
+    {
+      "id": "575395",
+      "group": "unique"
+    },
+    {
+      "id": "128730",
+      "group": "unique"
+    },
+    {
+      "id": "1491798",
+      "group": "unique"
+    },
+    {
+      "id": "2304775",
+      "group": "unique"
+    },
+    {
+      "id": "1053461",
+      "group": "unique"
+    },
+    {
+      "id": "1708",
+      "group": "unique"
+    },
+    {
+      "id": "1291952",
+      "group": "unique"
+    },
+    {
+      "id": "534249",
+      "group": "unique"
+    },
+    {
+      "id": "1526881",
+      "group": "unique"
+    },
+    {
+      "id": "1702169",
+      "group": "unique"
+    },
+    {
+      "id": "2628940",
+      "group": "unique"
+    },
+    {
+      "id": "520651",
+      "group": "unique"
+    },
+    {
+      "id": "480358",
+      "group": "unique"
+    },
+    {
+      "id": "2670741",
+      "group": "unique"
+    },
+    {
+      "id": "695095",
+      "group": "unique"
+    },
+    {
+      "id": "2335832",
+      "group": "unique"
+    },
+    {
+      "id": "2358953",
+      "group": "unique"
+    },
+    {
+      "id": "2319699",
+      "group": "unique"
+    },
+    {
+      "id": "1164617",
+      "group": "unique"
+    },
+    {
+      "id": "1774541",
+      "group": "unique"
+    },
+    {
+      "id": "2347790",
+      "group": "unique"
+    },
+    {
+      "id": "236602",
+      "group": "unique"
+    },
+    {
+      "id": "1532176",
+      "group": "unique"
+    },
+    {
+      "id": "2513153",
+      "group": "unique"
+    },
+    {
+      "id": "2873260",
+      "group": "unique"
+    },
+    {
+      "id": "2899597",
+      "group": "unique"
+    },
+    {
+      "id": "1604993",
+      "group": "unique"
+    }
+  ],
+  "annotator_03/batch_2": [
+    {
+      "id": "1927893",
+      "group": "all"
+    },
+    {
+      "id": "1223589",
+      "group": "all"
+    },
+    {
+      "id": "492180",
+      "group": "all"
+    },
+    {
+      "id": "269470",
+      "group": "all"
+    },
+    {
+      "id": "2170649",
+      "group": "all"
+    },
+    {
+      "id": "320824",
+      "group": "all"
+    },
+    {
+      "id": "2213168",
+      "group": "all"
+    },
+    {
+      "id": "1806534",
+      "group": "all"
+    },
+    {
+      "id": "1664433",
+      "group": "all"
+    },
+    {
+      "id": "530722",
+      "group": "all"
+    },
+    {
+      "id": "347509",
+      "group": "all"
+    },
+    {
+      "id": "2961741",
+      "group": "all"
+    },
+    {
+      "id": "1014848",
+      "group": "all"
+    },
+    {
+      "id": "142056",
+      "group": "all"
+    },
+    {
+      "id": "2927056",
+      "group": "all"
+    },
+    {
+      "id": "1014852",
+      "group": "all"
+    },
+    {
+      "id": "2482400",
+      "group": "all"
+    },
+    {
+      "id": "1033165",
+      "group": "all"
+    },
+    {
+      "id": "512373",
+      "group": "all"
+    },
+    {
+      "id": "2074012",
+      "group": "all"
+    },
+    {
+      "id": "372158",
+      "group": "pair"
+    },
+    {
+      "id": "2171912",
+      "group": "pair"
+    },
+    {
+      "id": "1491466",
+      "group": "pair"
+    },
+    {
+      "id": "1892049",
+      "group": "triple"
+    },
+    {
+      "id": "2913238",
+      "group": "triple"
+    },
+    {
+      "id": "795105",
+      "group": "triple"
+    },
+    {
+      "id": "453178",
+      "group": "unique"
+    },
+    {
+      "id": "1197372",
+      "group": "unique"
+    },
+    {
+      "id": "2279660",
+      "group": "unique"
+    },
+    {
+      "id": "811600",
+      "group": "unique"
+    },
+    {
+      "id": "170919",
+      "group": "unique"
+    },
+    {
+      "id": "2610644",
+      "group": "unique"
+    },
+    {
+      "id": "232445",
+      "group": "unique"
+    },
+    {
+      "id": "1561949",
+      "group": "unique"
+    },
+    {
+      "id": "639498",
+      "group": "unique"
+    },
+    {
+      "id": "2748296",
+      "group": "unique"
+    },
+    {
+      "id": "2855266",
+      "group": "unique"
+    },
+    {
+      "id": "232392",
+      "group": "unique"
+    },
+    {
+      "id": "401558",
+      "group": "unique"
+    },
+    {
+      "id": "2260732",
+      "group": "unique"
+    },
+    {
+      "id": "1746079",
+      "group": "unique"
+    },
+    {
+      "id": "840914",
+      "group": "unique"
+    },
+    {
+      "id": "2260603",
+      "group": "unique"
+    },
+    {
+      "id": "1585048",
+      "group": "unique"
+    },
+    {
+      "id": "312130",
+      "group": "unique"
+    },
+    {
+      "id": "1273512",
+      "group": "unique"
+    },
+    {
+      "id": "1489459",
+      "group": "unique"
+    },
+    {
+      "id": "2310196",
+      "group": "unique"
+    },
+    {
+      "id": "2142264",
+      "group": "unique"
+    },
+    {
+      "id": "2212199",
+      "group": "unique"
+    },
+    {
+      "id": "2167771",
+      "group": "unique"
+    },
+    {
+      "id": "1439809",
+      "group": "unique"
+    },
+    {
+      "id": "558424",
+      "group": "unique"
+    },
+    {
+      "id": "1204948",
+      "group": "unique"
+    },
+    {
+      "id": "530040",
+      "group": "unique"
+    },
+    {
+      "id": "1715678",
+      "group": "unique"
+    },
+    {
+      "id": "1031082",
+      "group": "unique"
+    },
+    {
+      "id": "392137",
+      "group": "unique"
+    },
+    {
+      "id": "2288402",
+      "group": "unique"
+    },
+    {
+      "id": "199909",
+      "group": "unique"
+    },
+    {
+      "id": "522547",
+      "group": "unique"
+    },
+    {
+      "id": "2634843",
+      "group": "unique"
+    },
+    {
+      "id": "315333",
+      "group": "unique"
+    },
+    {
+      "id": "20764",
+      "group": "unique"
+    },
+    {
+      "id": "2398933",
+      "group": "unique"
+    },
+    {
+      "id": "2813488",
+      "group": "unique"
+    },
+    {
+      "id": "353625",
+      "group": "unique"
+    },
+    {
+      "id": "2820534",
+      "group": "unique"
+    },
+    {
+      "id": "281657",
+      "group": "unique"
+    },
+    {
+      "id": "535111",
+      "group": "unique"
+    },
+    {
+      "id": "249154",
+      "group": "unique"
+    },
+    {
+      "id": "990991",
+      "group": "unique"
+    },
+    {
+      "id": "1206875",
+      "group": "unique"
+    },
+    {
+      "id": "206769",
+      "group": "unique"
+    },
+    {
+      "id": "167952",
+      "group": "unique"
+    },
+    {
+      "id": "1020973",
+      "group": "unique"
+    },
+    {
+      "id": "929191",
+      "group": "unique"
+    },
+    {
+      "id": "805540",
+      "group": "unique"
+    },
+    {
+      "id": "2297413",
+      "group": "unique"
+    },
+    {
+      "id": "65870",
+      "group": "unique"
+    },
+    {
+      "id": "761224",
+      "group": "unique"
+    },
+    {
+      "id": "2747111",
+      "group": "unique"
+    },
+    {
+      "id": "2297482",
+      "group": "unique"
+    },
+    {
+      "id": "2284009",
+      "group": "unique"
+    },
+    {
+      "id": "2955987",
+      "group": "unique"
+    },
+    {
+      "id": "1059577",
+      "group": "unique"
+    },
+    {
+      "id": "580670",
+      "group": "unique"
+    },
+    {
+      "id": "1223064",
+      "group": "unique"
+    },
+    {
+      "id": "1272793",
+      "group": "unique"
+    },
+    {
+      "id": "108201",
+      "group": "unique"
+    },
+    {
+      "id": "115808",
+      "group": "unique"
+    },
+    {
+      "id": "519692",
+      "group": "unique"
+    },
+    {
+      "id": "101810",
+      "group": "unique"
+    },
+    {
+      "id": "762442",
+      "group": "unique"
+    },
+    {
+      "id": "1160416",
+      "group": "unique"
+    },
+    {
+      "id": "1355397",
+      "group": "unique"
+    },
+    {
+      "id": "2795324",
+      "group": "unique"
+    },
+    {
+      "id": "229757",
+      "group": "unique"
+    },
+    {
+      "id": "1359045",
+      "group": "unique"
+    },
+    {
+      "id": "2787780",
+      "group": "unique"
+    }
+  ],
+  "annotator_04/batch_1": [
+    {
+      "id": "1832072",
+      "group": "all"
+    },
+    {
+      "id": "288998",
+      "group": "all"
+    },
+    {
+      "id": "2184793",
+      "group": "all"
+    },
+    {
+      "id": "1554844",
+      "group": "all"
+    },
+    {
+      "id": "394885",
+      "group": "all"
+    },
+    {
+      "id": "2938314",
+      "group": "all"
+    },
+    {
+      "id": "2305051",
+      "group": "all"
+    },
+    {
+      "id": "386208",
+      "group": "all"
+    },
+    {
+      "id": "210410",
+      "group": "all"
+    },
+    {
+      "id": "379647",
+      "group": "all"
+    },
+    {
+      "id": "1721554",
+      "group": "all"
+    },
+    {
+      "id": "1950128",
+      "group": "all"
+    },
+    {
+      "id": "2962806",
+      "group": "all"
+    },
+    {
+      "id": "1003675",
+      "group": "all"
+    },
+    {
+      "id": "2906627",
+      "group": "all"
+    },
+    {
+      "id": "2542955",
+      "group": "all"
+    },
+    {
+      "id": "1950205",
+      "group": "all"
+    },
+    {
+      "id": "1688875",
+      "group": "all"
+    },
+    {
+      "id": "2930623",
+      "group": "all"
+    },
+    {
+      "id": "1447136",
+      "group": "all"
+    },
+    {
+      "id": "936654",
+      "group": "pair"
+    },
+    {
+      "id": "1429170",
+      "group": "pair"
+    },
+    {
+      "id": "1646833",
+      "group": "pair"
+    },
+    {
+      "id": "1599029",
+      "group": "triple"
+    },
+    {
+      "id": "197758",
+      "group": "triple"
+    },
+    {
+      "id": "490661",
+      "group": "triple"
+    },
+    {
+      "id": "2894532",
+      "group": "unique"
+    },
+    {
+      "id": "1468400",
+      "group": "unique"
+    },
+    {
+      "id": "1573563",
+      "group": "unique"
+    },
+    {
+      "id": "86120",
+      "group": "unique"
+    },
+    {
+      "id": "1875447",
+      "group": "unique"
+    },
+    {
+      "id": "380140",
+      "group": "unique"
+    },
+    {
+      "id": "639537",
+      "group": "unique"
+    },
+    {
+      "id": "2934454",
+      "group": "unique"
+    },
+    {
+      "id": "782356",
+      "group": "unique"
+    },
+    {
+      "id": "978370",
+      "group": "unique"
+    },
+    {
+      "id": "737938",
+      "group": "unique"
+    },
+    {
+      "id": "2949495",
+      "group": "unique"
+    },
+    {
+      "id": "600362",
+      "group": "unique"
+    },
+    {
+      "id": "1309085",
+      "group": "unique"
+    },
+    {
+      "id": "2913182",
+      "group": "unique"
+    },
+    {
+      "id": "683081",
+      "group": "unique"
+    },
+    {
+      "id": "787547",
+      "group": "unique"
+    },
+    {
+      "id": "2756720",
+      "group": "unique"
+    },
+    {
+      "id": "281381",
+      "group": "unique"
+    },
+    {
+      "id": "27901",
+      "group": "unique"
+    },
+    {
+      "id": "2604218",
+      "group": "unique"
+    },
+    {
+      "id": "1746075",
+      "group": "unique"
+    },
+    {
+      "id": "2850700",
+      "group": "unique"
+    },
+    {
+      "id": "1445469",
+      "group": "unique"
+    },
+    {
+      "id": "360704",
+      "group": "unique"
+    },
+    {
+      "id": "2459113",
+      "group": "unique"
+    },
+    {
+      "id": "2602913",
+      "group": "unique"
+    },
+    {
+      "id": "2570103",
+      "group": "unique"
+    },
+    {
+      "id": "179581",
+      "group": "unique"
+    },
+    {
+      "id": "1707963",
+      "group": "unique"
+    },
+    {
+      "id": "2367978",
+      "group": "unique"
+    },
+    {
+      "id": "729366",
+      "group": "unique"
+    },
+    {
+      "id": "1767516",
+      "group": "unique"
+    },
+    {
+      "id": "58137",
+      "group": "unique"
+    },
+    {
+      "id": "2419894",
+      "group": "unique"
+    },
+    {
+      "id": "2252941",
+      "group": "unique"
+    },
+    {
+      "id": "2979652",
+      "group": "unique"
+    },
+    {
+      "id": "1027520",
+      "group": "unique"
+    },
+    {
+      "id": "1773482",
+      "group": "unique"
+    },
+    {
+      "id": "1464242",
+      "group": "unique"
+    },
+    {
+      "id": "478467",
+      "group": "unique"
+    },
+    {
+      "id": "2543901",
+      "group": "unique"
+    },
+    {
+      "id": "2814468",
+      "group": "unique"
+    },
+    {
+      "id": "1151758",
+      "group": "unique"
+    },
+    {
+      "id": "145727",
+      "group": "unique"
+    },
+    {
+      "id": "2627627",
+      "group": "unique"
+    },
+    {
+      "id": "2322219",
+      "group": "unique"
+    },
+    {
+      "id": "2284000",
+      "group": "unique"
+    },
+    {
+      "id": "1773981",
+      "group": "unique"
+    },
+    {
+      "id": "472395",
+      "group": "unique"
+    },
+    {
+      "id": "641690",
+      "group": "unique"
+    },
+    {
+      "id": "1133972",
+      "group": "unique"
+    },
+    {
+      "id": "1398460",
+      "group": "unique"
+    },
+    {
+      "id": "984313",
+      "group": "unique"
+    },
+    {
+      "id": "417251",
+      "group": "unique"
+    },
+    {
+      "id": "1206168",
+      "group": "unique"
+    },
+    {
+      "id": "2176700",
+      "group": "unique"
+    },
+    {
+      "id": "970273",
+      "group": "unique"
+    },
+    {
+      "id": "526507",
+      "group": "unique"
+    },
+    {
+      "id": "2283531",
+      "group": "unique"
+    },
+    {
+      "id": "2766283",
+      "group": "unique"
+    },
+    {
+      "id": "129665",
+      "group": "unique"
+    },
+    {
+      "id": "2871508",
+      "group": "unique"
+    },
+    {
+      "id": "665507",
+      "group": "unique"
+    },
+    {
+      "id": "2513427",
+      "group": "unique"
+    },
+    {
+      "id": "235739",
+      "group": "unique"
+    },
+    {
+      "id": "2387910",
+      "group": "unique"
+    },
+    {
+      "id": "1561569",
+      "group": "unique"
+    },
+    {
+      "id": "1586708",
+      "group": "unique"
+    },
+    {
+      "id": "2355264",
+      "group": "unique"
+    },
+    {
+      "id": "2141969",
+      "group": "unique"
+    },
+    {
+      "id": "17900",
+      "group": "unique"
+    },
+    {
+      "id": "1075196",
+      "group": "unique"
+    },
+    {
+      "id": "2551961",
+      "group": "unique"
+    }
+  ],
+  "annotator_04/batch_2": [
+    {
+      "id": "1927893",
+      "group": "all"
+    },
+    {
+      "id": "1223589",
+      "group": "all"
+    },
+    {
+      "id": "492180",
+      "group": "all"
+    },
+    {
+      "id": "269470",
+      "group": "all"
+    },
+    {
+      "id": "2170649",
+      "group": "all"
+    },
+    {
+      "id": "320824",
+      "group": "all"
+    },
+    {
+      "id": "2213168",
+      "group": "all"
+    },
+    {
+      "id": "1806534",
+      "group": "all"
+    },
+    {
+      "id": "1664433",
+      "group": "all"
+    },
+    {
+      "id": "530722",
+      "group": "all"
+    },
+    {
+      "id": "347509",
+      "group": "all"
+    },
+    {
+      "id": "2961741",
+      "group": "all"
+    },
+    {
+      "id": "1014848",
+      "group": "all"
+    },
+    {
+      "id": "142056",
+      "group": "all"
+    },
+    {
+      "id": "2927056",
+      "group": "all"
+    },
+    {
+      "id": "1014852",
+      "group": "all"
+    },
+    {
+      "id": "2482400",
+      "group": "all"
+    },
+    {
+      "id": "1033165",
+      "group": "all"
+    },
+    {
+      "id": "512373",
+      "group": "all"
+    },
+    {
+      "id": "2074012",
+      "group": "all"
+    },
+    {
+      "id": "1881673",
+      "group": "pair"
+    },
+    {
+      "id": "384844",
+      "group": "pair"
+    },
+    {
+      "id": "1491466",
+      "group": "pair"
+    },
+    {
+      "id": "654274",
+      "group": "pair"
+    },
+    {
+      "id": "1892049",
+      "group": "triple"
+    },
+    {
+      "id": "795105",
+      "group": "triple"
+    },
+    {
+      "id": "1208728",
+      "group": "unique"
+    },
+    {
+      "id": "666154",
+      "group": "unique"
+    },
+    {
+      "id": "2960444",
+      "group": "unique"
+    },
+    {
+      "id": "1197924",
+      "group": "unique"
+    },
+    {
+      "id": "2723335",
+      "group": "unique"
+    },
+    {
+      "id": "418134",
+      "group": "unique"
+    },
+    {
+      "id": "2519221",
+      "group": "unique"
+    },
+    {
+      "id": "1745350",
+      "group": "unique"
+    },
+    {
+      "id": "413075",
+      "group": "unique"
+    },
+    {
+      "id": "955631",
+      "group": "unique"
+    },
+    {
+      "id": "107236",
+      "group": "unique"
+    },
+    {
+      "id": "1618367",
+      "group": "unique"
+    },
+    {
+      "id": "2360573",
+      "group": "unique"
+    },
+    {
+      "id": "2721736",
+      "group": "unique"
+    },
+    {
+      "id": "549507",
+      "group": "unique"
+    },
+    {
+      "id": "957588",
+      "group": "unique"
+    },
+    {
+      "id": "2933600",
+      "group": "unique"
+    },
+    {
+      "id": "2302214",
+      "group": "unique"
+    },
+    {
+      "id": "539721",
+      "group": "unique"
+    },
+    {
+      "id": "73511",
+      "group": "unique"
+    },
+    {
+      "id": "2371379",
+      "group": "unique"
+    },
+    {
+      "id": "2159404",
+      "group": "unique"
+    },
+    {
+      "id": "230127",
+      "group": "unique"
+    },
+    {
+      "id": "430027",
+      "group": "unique"
+    },
+    {
+      "id": "1270152",
+      "group": "unique"
+    },
+    {
+      "id": "2338460",
+      "group": "unique"
+    },
+    {
+      "id": "1604957",
+      "group": "unique"
+    },
+    {
+      "id": "89354",
+      "group": "unique"
+    },
+    {
+      "id": "980465",
+      "group": "unique"
+    },
+    {
+      "id": "1328591",
+      "group": "unique"
+    },
+    {
+      "id": "2856614",
+      "group": "unique"
+    },
+    {
+      "id": "445530",
+      "group": "unique"
+    },
+    {
+      "id": "1432335",
+      "group": "unique"
+    },
+    {
+      "id": "2296829",
+      "group": "unique"
+    },
+    {
+      "id": "1387213",
+      "group": "unique"
+    },
+    {
+      "id": "2599714",
+      "group": "unique"
+    },
+    {
+      "id": "1431041",
+      "group": "unique"
+    },
+    {
+      "id": "1728564",
+      "group": "unique"
+    },
+    {
+      "id": "513566",
+      "group": "unique"
+    },
+    {
+      "id": "2698875",
+      "group": "unique"
+    },
+    {
+      "id": "2438179",
+      "group": "unique"
+    },
+    {
+      "id": "2857271",
+      "group": "unique"
+    },
+    {
+      "id": "2965268",
+      "group": "unique"
+    },
+    {
+      "id": "2197672",
+      "group": "unique"
+    },
+    {
+      "id": "1157942",
+      "group": "unique"
+    },
+    {
+      "id": "1332706",
+      "group": "unique"
+    },
+    {
+      "id": "1035551",
+      "group": "unique"
+    },
+    {
+      "id": "871134",
+      "group": "unique"
+    },
+    {
+      "id": "786763",
+      "group": "unique"
+    },
+    {
+      "id": "448309",
+      "group": "unique"
+    },
+    {
+      "id": "993227",
+      "group": "unique"
+    },
+    {
+      "id": "1374944",
+      "group": "unique"
+    },
+    {
+      "id": "784740",
+      "group": "unique"
+    },
+    {
+      "id": "502455",
+      "group": "unique"
+    },
+    {
+      "id": "2614034",
+      "group": "unique"
+    },
+    {
+      "id": "563948",
+      "group": "unique"
+    },
+    {
+      "id": "2931305",
+      "group": "unique"
+    },
+    {
+      "id": "1273242",
+      "group": "unique"
+    },
+    {
+      "id": "1751758",
+      "group": "unique"
+    },
+    {
+      "id": "2235589",
+      "group": "unique"
+    },
+    {
+      "id": "490612",
+      "group": "unique"
+    },
+    {
+      "id": "2342074",
+      "group": "unique"
+    },
+    {
+      "id": "1198273",
+      "group": "unique"
+    },
+    {
+      "id": "455552",
+      "group": "unique"
+    },
+    {
+      "id": "622591",
+      "group": "unique"
+    },
+    {
+      "id": "553306",
+      "group": "unique"
+    },
+    {
+      "id": "2562134",
+      "group": "unique"
+    },
+    {
+      "id": "667728",
+      "group": "unique"
+    },
+    {
+      "id": "1216261",
+      "group": "unique"
+    },
+    {
+      "id": "712054",
+      "group": "unique"
+    },
+    {
+      "id": "1818221",
+      "group": "unique"
+    },
+    {
+      "id": "1280549",
+      "group": "unique"
+    },
+    {
+      "id": "854437",
+      "group": "unique"
+    },
+    {
+      "id": "51603",
+      "group": "unique"
+    }
+  ],
+  "annotator_05/batch_1": [
+    {
+      "id": "1832072",
+      "group": "all"
+    },
+    {
+      "id": "288998",
+      "group": "all"
+    },
+    {
+      "id": "2184793",
+      "group": "all"
+    },
+    {
+      "id": "1554844",
+      "group": "all"
+    },
+    {
+      "id": "394885",
+      "group": "all"
+    },
+    {
+      "id": "2938314",
+      "group": "all"
+    },
+    {
+      "id": "2305051",
+      "group": "all"
+    },
+    {
+      "id": "386208",
+      "group": "all"
+    },
+    {
+      "id": "210410",
+      "group": "all"
+    },
+    {
+      "id": "379647",
+      "group": "all"
+    },
+    {
+      "id": "1721554",
+      "group": "all"
+    },
+    {
+      "id": "1950128",
+      "group": "all"
+    },
+    {
+      "id": "2962806",
+      "group": "all"
+    },
+    {
+      "id": "1003675",
+      "group": "all"
+    },
+    {
+      "id": "2906627",
+      "group": "all"
+    },
+    {
+      "id": "2542955",
+      "group": "all"
+    },
+    {
+      "id": "1950205",
+      "group": "all"
+    },
+    {
+      "id": "1688875",
+      "group": "all"
+    },
+    {
+      "id": "2930623",
+      "group": "all"
+    },
+    {
+      "id": "1447136",
+      "group": "all"
+    },
+    {
+      "id": "936654",
+      "group": "pair"
+    },
+    {
+      "id": "1646833",
+      "group": "pair"
+    },
+    {
+      "id": "1171352",
+      "group": "pair"
+    },
+    {
+      "id": "525649",
+      "group": "pair"
+    },
+    {
+      "id": "1599029",
+      "group": "triple"
+    },
+    {
+      "id": "245911",
+      "group": "triple"
+    },
+    {
+      "id": "1552981",
+      "group": "unique"
+    },
+    {
+      "id": "9807",
+      "group": "unique"
+    },
+    {
+      "id": "179994",
+      "group": "unique"
+    },
+    {
+      "id": "2980874",
+      "group": "unique"
+    },
+    {
+      "id": "808152",
+      "group": "unique"
+    },
+    {
+      "id": "1182476",
+      "group": "unique"
+    },
+    {
+      "id": "294771",
+      "group": "unique"
+    },
+    {
+      "id": "319461",
+      "group": "unique"
+    },
+    {
+      "id": "1506354",
+      "group": "unique"
+    },
+    {
+      "id": "1263420",
+      "group": "unique"
+    },
+    {
+      "id": "2949425",
+      "group": "unique"
+    },
+    {
+      "id": "805568",
+      "group": "unique"
+    },
+    {
+      "id": "1719225",
+      "group": "unique"
+    },
+    {
+      "id": "531591",
+      "group": "unique"
+    },
+    {
+      "id": "2371290",
+      "group": "unique"
+    },
+    {
+      "id": "723263",
+      "group": "unique"
+    },
+    {
+      "id": "179462",
+      "group": "unique"
+    },
+    {
+      "id": "2780576",
+      "group": "unique"
+    },
+    {
+      "id": "1232870",
+      "group": "unique"
+    },
+    {
+      "id": "2319289",
+      "group": "unique"
+    },
+    {
+      "id": "2307833",
+      "group": "unique"
+    },
+    {
+      "id": "529097",
+      "group": "unique"
+    },
+    {
+      "id": "2569715",
+      "group": "unique"
+    },
+    {
+      "id": "1622223",
+      "group": "unique"
+    },
+    {
+      "id": "314000",
+      "group": "unique"
+    },
+    {
+      "id": "1031546",
+      "group": "unique"
+    },
+    {
+      "id": "2312811",
+      "group": "unique"
+    },
+    {
+      "id": "760416",
+      "group": "unique"
+    },
+    {
+      "id": "348791",
+      "group": "unique"
+    },
+    {
+      "id": "1584465",
+      "group": "unique"
+    },
+    {
+      "id": "2375368",
+      "group": "unique"
+    },
+    {
+      "id": "377933",
+      "group": "unique"
+    },
+    {
+      "id": "2790421",
+      "group": "unique"
+    },
+    {
+      "id": "1366048",
+      "group": "unique"
+    },
+    {
+      "id": "2922539",
+      "group": "unique"
+    },
+    {
+      "id": "319151",
+      "group": "unique"
+    },
+    {
+      "id": "1014312",
+      "group": "unique"
+    },
+    {
+      "id": "990781",
+      "group": "unique"
+    },
+    {
+      "id": "2745971",
+      "group": "unique"
+    },
+    {
+      "id": "1318987",
+      "group": "unique"
+    },
+    {
+      "id": "410505",
+      "group": "unique"
+    },
+    {
+      "id": "993245",
+      "group": "unique"
+    },
+    {
+      "id": "781200",
+      "group": "unique"
+    },
+    {
+      "id": "2730304",
+      "group": "unique"
+    },
+    {
+      "id": "571666",
+      "group": "unique"
+    },
+    {
+      "id": "1682701",
+      "group": "unique"
+    },
+    {
+      "id": "111775",
+      "group": "unique"
+    },
+    {
+      "id": "666147",
+      "group": "unique"
+    },
+    {
+      "id": "156763",
+      "group": "unique"
+    },
+    {
+      "id": "2401524",
+      "group": "unique"
+    },
+    {
+      "id": "1223747",
+      "group": "unique"
+    },
+    {
+      "id": "2170900",
+      "group": "unique"
+    },
+    {
+      "id": "2135614",
+      "group": "unique"
+    },
+    {
+      "id": "1287015",
+      "group": "unique"
+    },
+    {
+      "id": "631655",
+      "group": "unique"
+    },
+    {
+      "id": "1746945",
+      "group": "unique"
+    },
+    {
+      "id": "382223",
+      "group": "unique"
+    },
+    {
+      "id": "2763508",
+      "group": "unique"
+    },
+    {
+      "id": "166471",
+      "group": "unique"
+    },
+    {
+      "id": "331579",
+      "group": "unique"
+    },
+    {
+      "id": "128160",
+      "group": "unique"
+    },
+    {
+      "id": "494872",
+      "group": "unique"
+    },
+    {
+      "id": "707382",
+      "group": "unique"
+    },
+    {
+      "id": "566673",
+      "group": "unique"
+    },
+    {
+      "id": "2042040",
+      "group": "unique"
+    },
+    {
+      "id": "394889",
+      "group": "unique"
+    },
+    {
+      "id": "2131801",
+      "group": "unique"
+    },
+    {
+      "id": "1120466",
+      "group": "unique"
+    },
+    {
+      "id": "2847321",
+      "group": "unique"
+    },
+    {
+      "id": "391175",
+      "group": "unique"
+    },
+    {
+      "id": "1096779",
+      "group": "unique"
+    },
+    {
+      "id": "936722",
+      "group": "unique"
+    },
+    {
+      "id": "1412487",
+      "group": "unique"
+    },
+    {
+      "id": "2706736",
+      "group": "unique"
+    }
+  ],
+  "annotator_05/batch_2": [
+    {
+      "id": "1927893",
+      "group": "all"
+    },
+    {
+      "id": "1223589",
+      "group": "all"
+    },
+    {
+      "id": "492180",
+      "group": "all"
+    },
+    {
+      "id": "269470",
+      "group": "all"
+    },
+    {
+      "id": "2170649",
+      "group": "all"
+    },
+    {
+      "id": "320824",
+      "group": "all"
+    },
+    {
+      "id": "2213168",
+      "group": "all"
+    },
+    {
+      "id": "1806534",
+      "group": "all"
+    },
+    {
+      "id": "1664433",
+      "group": "all"
+    },
+    {
+      "id": "530722",
+      "group": "all"
+    },
+    {
+      "id": "347509",
+      "group": "all"
+    },
+    {
+      "id": "2961741",
+      "group": "all"
+    },
+    {
+      "id": "1014848",
+      "group": "all"
+    },
+    {
+      "id": "142056",
+      "group": "all"
+    },
+    {
+      "id": "2927056",
+      "group": "all"
+    },
+    {
+      "id": "1014852",
+      "group": "all"
+    },
+    {
+      "id": "2482400",
+      "group": "all"
+    },
+    {
+      "id": "1033165",
+      "group": "all"
+    },
+    {
+      "id": "512373",
+      "group": "all"
+    },
+    {
+      "id": "2074012",
+      "group": "all"
+    },
+    {
+      "id": "2811755",
+      "group": "pair"
+    },
+    {
+      "id": "372158",
+      "group": "pair"
+    },
+    {
+      "id": "2848951",
+      "group": "pair"
+    },
+    {
+      "id": "656082",
+      "group": "pair"
+    },
+    {
+      "id": "1892049",
+      "group": "triple"
+    },
+    {
+      "id": "2715153",
+      "group": "triple"
+    },
+    {
+      "id": "379304",
+      "group": "unique"
+    },
+    {
+      "id": "1089754",
+      "group": "unique"
+    },
+    {
+      "id": "896492",
+      "group": "unique"
+    },
+    {
+      "id": "1636630",
+      "group": "unique"
+    },
+    {
+      "id": "2929506",
+      "group": "unique"
+    },
+    {
+      "id": "656041",
+      "group": "unique"
+    },
+    {
+      "id": "2287073",
+      "group": "unique"
+    },
+    {
+      "id": "1260503",
+      "group": "unique"
+    },
+    {
+      "id": "253381",
+      "group": "unique"
+    },
+    {
+      "id": "884889",
+      "group": "unique"
+    },
+    {
+      "id": "1247764",
+      "group": "unique"
+    },
+    {
+      "id": "2976490",
+      "group": "unique"
+    },
+    {
+      "id": "1220885",
+      "group": "unique"
+    },
+    {
+      "id": "2965277",
+      "group": "unique"
+    },
+    {
+      "id": "2199029",
+      "group": "unique"
+    },
+    {
+      "id": "363312",
+      "group": "unique"
+    },
+    {
+      "id": "2924610",
+      "group": "unique"
+    },
+    {
+      "id": "909925",
+      "group": "unique"
+    },
+    {
+      "id": "1120043",
+      "group": "unique"
+    },
+    {
+      "id": "288610",
+      "group": "unique"
+    },
+    {
+      "id": "644717",
+      "group": "unique"
+    },
+    {
+      "id": "2848995",
+      "group": "unique"
+    },
+    {
+      "id": "869872",
+      "group": "unique"
+    },
+    {
+      "id": "1727961",
+      "group": "unique"
+    },
+    {
+      "id": "763043",
+      "group": "unique"
+    },
+    {
+      "id": "2662632",
+      "group": "unique"
+    },
+    {
+      "id": "844202",
+      "group": "unique"
+    },
+    {
+      "id": "2617270",
+      "group": "unique"
+    },
+    {
+      "id": "987134",
+      "group": "unique"
+    },
+    {
+      "id": "1114892",
+      "group": "unique"
+    },
+    {
+      "id": "915106",
+      "group": "unique"
+    },
+    {
+      "id": "364058",
+      "group": "unique"
+    },
+    {
+      "id": "327984",
+      "group": "unique"
+    },
+    {
+      "id": "1229180",
+      "group": "unique"
+    },
+    {
+      "id": "1337976",
+      "group": "unique"
+    },
+    {
+      "id": "661490",
+      "group": "unique"
+    },
+    {
+      "id": "522555",
+      "group": "unique"
+    },
+    {
+      "id": "131763",
+      "group": "unique"
+    },
+    {
+      "id": "1249428",
+      "group": "unique"
+    },
+    {
+      "id": "2103006",
+      "group": "unique"
+    },
+    {
+      "id": "798804",
+      "group": "unique"
+    },
+    {
+      "id": "2292683",
+      "group": "unique"
+    },
+    {
+      "id": "2927017",
+      "group": "unique"
+    },
+    {
+      "id": "1319894",
+      "group": "unique"
+    },
+    {
+      "id": "2956968",
+      "group": "unique"
+    },
+    {
+      "id": "1606824",
+      "group": "unique"
+    },
+    {
+      "id": "1156217",
+      "group": "unique"
+    },
+    {
+      "id": "2422637",
+      "group": "unique"
+    },
+    {
+      "id": "2645582",
+      "group": "unique"
+    },
+    {
+      "id": "2383345",
+      "group": "unique"
+    },
+    {
+      "id": "2064364",
+      "group": "unique"
+    },
+    {
+      "id": "389920",
+      "group": "unique"
+    },
+    {
+      "id": "677645",
+      "group": "unique"
+    },
+    {
+      "id": "281368",
+      "group": "unique"
+    },
+    {
+      "id": "1760502",
+      "group": "unique"
+    },
+    {
+      "id": "480407",
+      "group": "unique"
+    },
+    {
+      "id": "702897",
+      "group": "unique"
+    },
+    {
+      "id": "440213",
+      "group": "unique"
+    },
+    {
+      "id": "230876",
+      "group": "unique"
+    },
+    {
+      "id": "423531",
+      "group": "unique"
+    },
+    {
+      "id": "865995",
+      "group": "unique"
+    },
+    {
+      "id": "2886540",
+      "group": "unique"
+    },
+    {
+      "id": "2784510",
+      "group": "unique"
+    },
+    {
+      "id": "619210",
+      "group": "unique"
+    },
+    {
+      "id": "218079",
+      "group": "unique"
+    },
+    {
+      "id": "572839",
+      "group": "unique"
+    },
+    {
+      "id": "2882508",
+      "group": "unique"
+    },
+    {
+      "id": "1148759",
+      "group": "unique"
+    },
+    {
+      "id": "2789111",
+      "group": "unique"
+    },
+    {
+      "id": "279951",
+      "group": "unique"
+    },
+    {
+      "id": "566593",
+      "group": "unique"
+    },
+    {
+      "id": "540897",
+      "group": "unique"
+    },
+    {
+      "id": "1445332",
+      "group": "unique"
+    },
+    {
+      "id": "2288970",
+      "group": "unique"
+    }
+  ],
+  "annotator_06/batch_1": [
+    {
+      "id": "1832072",
+      "group": "all"
+    },
+    {
+      "id": "288998",
+      "group": "all"
+    },
+    {
+      "id": "2184793",
+      "group": "all"
+    },
+    {
+      "id": "1554844",
+      "group": "all"
+    },
+    {
+      "id": "394885",
+      "group": "all"
+    },
+    {
+      "id": "2938314",
+      "group": "all"
+    },
+    {
+      "id": "2305051",
+      "group": "all"
+    },
+    {
+      "id": "386208",
+      "group": "all"
+    },
+    {
+      "id": "210410",
+      "group": "all"
+    },
+    {
+      "id": "379647",
+      "group": "all"
+    },
+    {
+      "id": "1721554",
+      "group": "all"
+    },
+    {
+      "id": "1950128",
+      "group": "all"
+    },
+    {
+      "id": "2962806",
+      "group": "all"
+    },
+    {
+      "id": "1003675",
+      "group": "all"
+    },
+    {
+      "id": "2906627",
+      "group": "all"
+    },
+    {
+      "id": "2542955",
+      "group": "all"
+    },
+    {
+      "id": "1950205",
+      "group": "all"
+    },
+    {
+      "id": "1688875",
+      "group": "all"
+    },
+    {
+      "id": "2930623",
+      "group": "all"
+    },
+    {
+      "id": "1447136",
+      "group": "all"
+    },
+    {
+      "id": "2426017",
+      "group": "pair"
+    },
+    {
+      "id": "1171352",
+      "group": "pair"
+    },
+    {
+      "id": "525649",
+      "group": "pair"
+    },
+    {
+      "id": "245911",
+      "group": "triple"
+    },
+    {
+      "id": "744159",
+      "group": "triple"
+    },
+    {
+      "id": "2535341",
+      "group": "unique"
+    },
+    {
+      "id": "2819161",
+      "group": "unique"
+    },
+    {
+      "id": "2111040",
+      "group": "unique"
+    },
+    {
+      "id": "1204443",
+      "group": "unique"
+    },
+    {
+      "id": "1582579",
+      "group": "unique"
+    },
+    {
+      "id": "607371",
+      "group": "unique"
+    },
+    {
+      "id": "1775029",
+      "group": "unique"
+    },
+    {
+      "id": "1326976",
+      "group": "unique"
+    },
+    {
+      "id": "2375323",
+      "group": "unique"
+    },
+    {
+      "id": "422919",
+      "group": "unique"
+    },
+    {
+      "id": "2287321",
+      "group": "unique"
+    },
+    {
+      "id": "651527",
+      "group": "unique"
+    },
+    {
+      "id": "1634652",
+      "group": "unique"
+    },
+    {
+      "id": "2471910",
+      "group": "unique"
+    },
+    {
+      "id": "1394451",
+      "group": "unique"
+    },
+    {
+      "id": "2877083",
+      "group": "unique"
+    },
+    {
+      "id": "439335",
+      "group": "unique"
+    },
+    {
+      "id": "1120365",
+      "group": "unique"
+    },
+    {
+      "id": "2435672",
+      "group": "unique"
+    },
+    {
+      "id": "1661812",
+      "group": "unique"
+    },
+    {
+      "id": "64214",
+      "group": "unique"
+    },
+    {
+      "id": "2392725",
+      "group": "unique"
+    },
+    {
+      "id": "1248297",
+      "group": "unique"
+    },
+    {
+      "id": "2853785",
+      "group": "unique"
+    },
+    {
+      "id": "1583647",
+      "group": "unique"
+    },
+    {
+      "id": "555351",
+      "group": "unique"
+    },
+    {
+      "id": "2698971",
+      "group": "unique"
+    },
+    {
+      "id": "270641",
+      "group": "unique"
+    },
+    {
+      "id": "2212179",
+      "group": "unique"
+    },
+    {
+      "id": "419420",
+      "group": "unique"
+    },
+    {
+      "id": "1370726",
+      "group": "unique"
+    },
+    {
+      "id": "1031533",
+      "group": "unique"
+    },
+    {
+      "id": "1402854",
+      "group": "unique"
+    },
+    {
+      "id": "205778",
+      "group": "unique"
+    },
+    {
+      "id": "600256",
+      "group": "unique"
+    },
+    {
+      "id": "1604984",
+      "group": "unique"
+    },
+    {
+      "id": "2504969",
+      "group": "unique"
+    },
+    {
+      "id": "219589",
+      "group": "unique"
+    },
+    {
+      "id": "2836975",
+      "group": "unique"
+    },
+    {
+      "id": "1632154",
+      "group": "unique"
+    },
+    {
+      "id": "2265555",
+      "group": "unique"
+    },
+    {
+      "id": "1667786",
+      "group": "unique"
+    },
+    {
+      "id": "319191",
+      "group": "unique"
+    },
+    {
+      "id": "1676602",
+      "group": "unique"
+    },
+    {
+      "id": "2529233",
+      "group": "unique"
+    },
+    {
+      "id": "56911",
+      "group": "unique"
+    },
+    {
+      "id": "173480",
+      "group": "unique"
+    },
+    {
+      "id": "542084",
+      "group": "unique"
+    },
+    {
+      "id": "2406858",
+      "group": "unique"
+    },
+    {
+      "id": "394922",
+      "group": "unique"
+    },
+    {
+      "id": "2111015",
+      "group": "unique"
+    },
+    {
+      "id": "551873",
+      "group": "unique"
+    },
+    {
+      "id": "315236",
+      "group": "unique"
+    },
+    {
+      "id": "1939138",
+      "group": "unique"
+    },
+    {
+      "id": "1129414",
+      "group": "unique"
+    },
+    {
+      "id": "343073",
+      "group": "unique"
+    },
+    {
+      "id": "830801",
+      "group": "unique"
+    },
+    {
+      "id": "1237575",
+      "group": "unique"
+    },
+    {
+      "id": "2084537",
+      "group": "unique"
+    },
+    {
+      "id": "2952230",
+      "group": "unique"
+    },
+    {
+      "id": "2358852",
+      "group": "unique"
+    },
+    {
+      "id": "789070",
+      "group": "unique"
+    },
+    {
+      "id": "235754",
+      "group": "unique"
+    },
+    {
+      "id": "1777687",
+      "group": "unique"
+    },
+    {
+      "id": "124075",
+      "group": "unique"
+    },
+    {
+      "id": "944272",
+      "group": "unique"
+    },
+    {
+      "id": "63871",
+      "group": "unique"
+    },
+    {
+      "id": "1104393",
+      "group": "unique"
+    },
+    {
+      "id": "1354479",
+      "group": "unique"
+    },
+    {
+      "id": "2702078",
+      "group": "unique"
+    },
+    {
+      "id": "179734",
+      "group": "unique"
+    },
+    {
+      "id": "1506309",
+      "group": "unique"
+    },
+    {
+      "id": "1632506",
+      "group": "unique"
+    },
+    {
+      "id": "428328",
+      "group": "unique"
+    },
+    {
+      "id": "915935",
+      "group": "unique"
+    }
+  ],
+  "annotator_06/batch_2": [
+    {
+      "id": "1927893",
+      "group": "all"
+    },
+    {
+      "id": "1223589",
+      "group": "all"
+    },
+    {
+      "id": "492180",
+      "group": "all"
+    },
+    {
+      "id": "269470",
+      "group": "all"
+    },
+    {
+      "id": "2170649",
+      "group": "all"
+    },
+    {
+      "id": "320824",
+      "group": "all"
+    },
+    {
+      "id": "2213168",
+      "group": "all"
+    },
+    {
+      "id": "1806534",
+      "group": "all"
+    },
+    {
+      "id": "1664433",
+      "group": "all"
+    },
+    {
+      "id": "530722",
+      "group": "all"
+    },
+    {
+      "id": "347509",
+      "group": "all"
+    },
+    {
+      "id": "2961741",
+      "group": "all"
+    },
+    {
+      "id": "1014848",
+      "group": "all"
+    },
+    {
+      "id": "142056",
+      "group": "all"
+    },
+    {
+      "id": "2927056",
+      "group": "all"
+    },
+    {
+      "id": "1014852",
+      "group": "all"
+    },
+    {
+      "id": "2482400",
+      "group": "all"
+    },
+    {
+      "id": "1033165",
+      "group": "all"
+    },
+    {
+      "id": "512373",
+      "group": "all"
+    },
+    {
+      "id": "2074012",
+      "group": "all"
+    },
+    {
+      "id": "1881673",
+      "group": "pair"
+    },
+    {
+      "id": "384844",
+      "group": "pair"
+    },
+    {
+      "id": "73595",
+      "group": "pair"
+    },
+    {
+      "id": "2848951",
+      "group": "pair"
+    },
+    {
+      "id": "562921",
+      "group": "triple"
+    },
+    {
+      "id": "2715153",
+      "group": "triple"
+    },
+    {
+      "id": "758395",
+      "group": "unique"
+    },
+    {
+      "id": "2260788",
+      "group": "unique"
+    },
+    {
+      "id": "778974",
+      "group": "unique"
+    },
+    {
+      "id": "2617335",
+      "group": "unique"
+    },
+    {
+      "id": "1044254",
+      "group": "unique"
+    },
+    {
+      "id": "2406978",
+      "group": "unique"
+    },
+    {
+      "id": "93528",
+      "group": "unique"
+    },
+    {
+      "id": "1262656",
+      "group": "unique"
+    },
+    {
+      "id": "2471650",
+      "group": "unique"
+    },
+    {
+      "id": "2971861",
+      "group": "unique"
+    },
+    {
+      "id": "1164629",
+      "group": "unique"
+    },
+    {
+      "id": "1680142",
+      "group": "unique"
+    },
+    {
+      "id": "2318611",
+      "group": "unique"
+    },
+    {
+      "id": "2291188",
+      "group": "unique"
+    },
+    {
+      "id": "970300",
+      "group": "unique"
+    },
+    {
+      "id": "468211",
+      "group": "unique"
+    },
+    {
+      "id": "2703144",
+      "group": "unique"
+    },
+    {
+      "id": "967237",
+      "group": "unique"
+    },
+    {
+      "id": "1508641",
+      "group": "unique"
+    },
+    {
+      "id": "1727534",
+      "group": "unique"
+    },
+    {
+      "id": "673190",
+      "group": "unique"
+    },
+    {
+      "id": "2469419",
+      "group": "unique"
+    },
+    {
+      "id": "514648",
+      "group": "unique"
+    },
+    {
+      "id": "845262",
+      "group": "unique"
+    },
+    {
+      "id": "359512",
+      "group": "unique"
+    },
+    {
+      "id": "601334",
+      "group": "unique"
+    },
+    {
+      "id": "1678584",
+      "group": "unique"
+    },
+    {
+      "id": "2550243",
+      "group": "unique"
+    },
+    {
+      "id": "2465416",
+      "group": "unique"
+    },
+    {
+      "id": "1128650",
+      "group": "unique"
+    },
+    {
+      "id": "288290",
+      "group": "unique"
+    },
+    {
+      "id": "1220895",
+      "group": "unique"
+    },
+    {
+      "id": "458867",
+      "group": "unique"
+    },
+    {
+      "id": "1316532",
+      "group": "unique"
+    },
+    {
+      "id": "134867",
+      "group": "unique"
+    },
+    {
+      "id": "2801398",
+      "group": "unique"
+    },
+    {
+      "id": "2845485",
+      "group": "unique"
+    },
+    {
+      "id": "2364644",
+      "group": "unique"
+    },
+    {
+      "id": "985102",
+      "group": "unique"
+    },
+    {
+      "id": "2139746",
+      "group": "unique"
+    },
+    {
+      "id": "2629998",
+      "group": "unique"
+    },
+    {
+      "id": "2341996",
+      "group": "unique"
+    },
+    {
+      "id": "2644422",
+      "group": "unique"
+    },
+    {
+      "id": "1536949",
+      "group": "unique"
+    },
+    {
+      "id": "2706722",
+      "group": "unique"
+    },
+    {
+      "id": "566678",
+      "group": "unique"
+    },
+    {
+      "id": "2434958",
+      "group": "unique"
+    },
+    {
+      "id": "980090",
+      "group": "unique"
+    },
+    {
+      "id": "2226575",
+      "group": "unique"
+    },
+    {
+      "id": "1397258",
+      "group": "unique"
+    },
+    {
+      "id": "1694412",
+      "group": "unique"
+    },
+    {
+      "id": "2949454",
+      "group": "unique"
+    },
+    {
+      "id": "940480",
+      "group": "unique"
+    },
+    {
+      "id": "2468655",
+      "group": "unique"
+    },
+    {
+      "id": "1499886",
+      "group": "unique"
+    },
+    {
+      "id": "909892",
+      "group": "unique"
+    },
+    {
+      "id": "1651229",
+      "group": "unique"
+    },
+    {
+      "id": "286823",
+      "group": "unique"
+    },
+    {
+      "id": "1383510",
+      "group": "unique"
+    },
+    {
+      "id": "509354",
+      "group": "unique"
+    },
+    {
+      "id": "500870",
+      "group": "unique"
+    },
+    {
+      "id": "103136",
+      "group": "unique"
+    },
+    {
+      "id": "1495243",
+      "group": "unique"
+    },
+    {
+      "id": "1520442",
+      "group": "unique"
+    },
+    {
+      "id": "2856550",
+      "group": "unique"
+    },
+    {
+      "id": "2821113",
+      "group": "unique"
+    },
+    {
+      "id": "1016706",
+      "group": "unique"
+    },
+    {
+      "id": "2391901",
+      "group": "unique"
+    },
+    {
+      "id": "272476",
+      "group": "unique"
+    },
+    {
+      "id": "2438437",
+      "group": "unique"
+    },
+    {
+      "id": "622356",
+      "group": "unique"
+    },
+    {
+      "id": "2453599",
+      "group": "unique"
+    },
+    {
+      "id": "711118",
+      "group": "unique"
+    },
+    {
+      "id": "2105785",
+      "group": "unique"
+    }
+  ]
+}

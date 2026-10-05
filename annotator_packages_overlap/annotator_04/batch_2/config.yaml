@@ -1,0 +1,130 @@
+# Test task for the Potato annotation tool.
+# From the potato/ directory:
+#   potato start config.yaml -p 8000
+
+annotation_task_name: "Conversation Sense"
+port: 8000
+task_dir: "."
+
+data_files:
+  - "data.jsonl"
+
+item_properties:
+  id_key: id
+  text_key: conversation
+
+output_annotation_dir: "annotation_output/"
+export_annotation_format: "jsonl"
+# Write the JSONL export on every save. The default wait is 60 seconds,
+# which drops a second annotation made a few seconds after the first.
+auto_export_interval: 0
+
+annotation_schemes:
+  - annotation_type: radio
+    name: conversation_sense
+    description: "What is the sense of this conversation?"
+    labels:
+      - Appreciative or positive
+      - Neutral or informational
+      - Help-seeking or asking a question
+      - Frustrated or complaining
+      - Escalatory or requesting immediate resolution
+    sequential_key_binding: true
+    label_requirement:
+      required: true
+
+  - annotation_type: radio
+    name: secondary_sense
+    description: "Is there another applicable sense?"
+    labels:
+      - Appreciative or positive
+      - Neutral or informational
+      - Help-seeking or asking a question
+      - Frustrated or complaining
+      - Escalatory or requesting immediate resolution
+
+layout:
+  grid:
+    columns: 2
+
+# Sense reference sits under the navigation buttons. The script hides the
+# primary choice in the optional second group.
+custom_footer_html: |
+  <details class="annotation-instructions-banner" open>
+    <summary>Sense reference</summary>
+    <div class="annotation-instructions-content">
+      <p><b>Appreciative or positive</b></p>
+      <ul>
+        <li>Meaning: the customer is pleased, grateful or praising.</li>
+        <li>Cues: "thank you very much", "awesome", "love it", "so happy", praise, positive emojis.</li>
+        <li>Not this label if: the thanks is only a courtesy ("Thanks, will try") → Neutral; the thanks is sarcastic → Frustrated or Escalatory.</li>
+      </ul>
+      <p><b>Neutral or informational</b></p>
+      <ul>
+        <li>Meaning: the customer states facts or answers questions with no visible emotion, question or demand.</li>
+        <li>Cues: order details, dates, tracking status, "I did", "it's the .ca site".</li>
+        <li>Not this label if: there is evaluative wording or emphasis → Frustrated; there is a question or request for help → Help-seeking.</li>
+      </ul>
+      <p><b>Help-seeking or asking a question</b></p>
+      <ul>
+        <li>Meaning: the customer wants an answer, instructions or assistance, in a calm tone.</li>
+        <li>Cues: question marks, "how do I", "can you", "any suggestions", "please help".</li>
+        <li>Not this label if: the question is rhetorical or angry → Frustrated; it demands action or a manager → Escalatory.</li>
+      </ul>
+      <p><b>Frustrated or complaining</b></p>
+      <ul>
+        <li>Meaning: the customer is unhappy or critical but is not pressing or threatening.</li>
+        <li>Cues: "lame", "horrible", "a joke", sarcasm, rhetorical questions, capitals for emphasis, "?!", "still waiting".</li>
+        <li>Not this label if: there is no emotional wording → Neutral; there is a demand, threat or accusation → Escalatory.</li>
+      </ul>
+      <p><b>Escalatory or requesting immediate resolution</b></p>
+      <ul>
+        <li>Meaning: the customer presses for action or raises the stakes.</li>
+        <li>Cues: "manager", "I need a human", "ASAP", "lawsuit", "cancel my Prime", "fraud", "liar", repeated "Unacceptable", "!!!".</li>
+        <li>Not this label if: the customer only uses strong words with no demand, threat, accusation or build-up → Frustrated.</li>
+      </ul>
+    </div>
+  </details>
+  <script>
+  (function () {
+    function syncSecondarySense() {
+      var primary = document.querySelector('input[schema="conversation_sense"]:checked');
+      var selected = primary ? primary.value : "";
+      document.querySelectorAll('input[schema="secondary_sense"]').forEach(function (input) {
+        var option = input.closest(".shadcn-radio-option");
+        var skip = selected !== "" && input.value === selected;
+        if (option) option.style.display = skip ? "none" : "";
+        input.disabled = skip;
+        if (skip && input.checked) input.checked = false;
+      });
+    }
+
+    document.addEventListener("change", function (event) {
+      var target = event.target;
+      if (target && target.getAttribute && target.getAttribute("schema") === "conversation_sense") {
+        syncSecondarySense();
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var original = window.loadCurrentInstance;
+      if (typeof original === "function") {
+        window.loadCurrentInstance = async function () {
+          var result = await original.apply(this, arguments);
+          setTimeout(syncSecondarySense, 0);
+          return result;
+        };
+      }
+      syncSecondarySense();
+    });
+  })();
+  </script>
+
+require_password: false
+user_config:
+  allow_all_users: true
+
+html_layout: "default"
+
+ui_language:
+  text_to_annotate: "Conversation to annotate"
