@@ -39,6 +39,7 @@ and send the zip to the contact below:
 Please name the zip with your username and batch, for example
 `annotator_06_batch_1.zip`. Do this for each batch you completed.
 
-## Questions
+## Contact
 
-<add your email>
+- venkar@umich.edu
+- kvvy@umich.edu
