@@ -9,7 +9,7 @@ You will label how the **customer** sounds across a whole support conversation, 
 1. **Read the whole conversation first.** Agent replies are context: they explain why a customer reacts the way they do and they expose sarcasm (a "Thanks" after an unhelpful reply is not appreciation).
 2. **Judge the customer's words only.** Ignore how the agent sounds and whether the problem was solved.
 3. **Pick exactly one label.** If more than one seems to fit, use the order of precedence in Part B.
-4. **If the tone changes, label the tone the customer ends on.** The customer's last one or two messages decide the label; earlier messages are context.
+4. **Label the customer's overall tone across the whole conversation.** Every customer message counts; the last message does not take priority. If different tones appear at different points, use the order of precedence in Part B: the tone higher in the list wins, wherever it appears.
 5. **Label what the text shows, not what you imagine the customer feels.** Look at word choice, punctuation, capital letters, emojis, hashtags, questions and demands. Typos and slang are not tone signals by themselves.
 6. **Examples are real.** All examples in this guide come from the Amazon support conversations. First names are replaced with \[name\] and links appear as \[link\].
 
@@ -21,7 +21,7 @@ The five labels run from calm and positive to angry and demanding, with help-see
 
 The customer expresses gratitude, satisfaction, happiness or praise. After reading the messages, you should feel the customer is pleased, whether with the help received, the product or the service in general. Clear signals are thanks that follow a helpful reply, words such as "awesome", "superb", "love" or "so happy", and positive emojis or exclamations. The praise does not have to be about customer service: a customer enjoying a movie on Prime Video is positive too.
 
-Watch for two traps. First, a polite "thanks" on its own is not enough: "Thanks, I'll try that" is a courtesy, so it is Neutral. Second, sarcastic thanks ("Thanks Amazon... disgusting service") is a complaint, not appreciation, so always read the surrounding messages. If a customer is positive but also asks for something new, judge by the strongest tone in their last messages.
+Watch for two traps. First, a polite "thanks" on its own is not enough: "Thanks, I'll try that" is a courtesy, so it is Neutral. Second, sarcastic thanks ("Thanks Amazon... disgusting service") is a complaint, not appreciation, so always read the surrounding messages. If a customer is positive but also asks for something, use the order of precedence in Part B across all of their messages.
 
 **Example 1 (conversation 1024230).** The customer is positive from start to finish.
 
@@ -35,7 +35,7 @@ Watch for two traps. First, a polite "thanks" on its own is not enough: "Thanks,
 
 *Why Appreciative:* the customer asks for nothing. They volunteer enthusiasm (a hashtag praising the movie, watching it three times) and close with "Awesome thanks". Everything points to satisfaction.
 
-**Example 2 (conversation 2473401).** The customer starts by asking for help and ends delighted.
+**Example 2 (conversation 2473401), a contrast case.** The customer starts by asking for help and ends delighted. This one is *not* labeled Appreciative.
 
 > **Customer:** Can't find a place to pre-order the Dunkirk Filmbook special edition blu-ray to be delivered to Ireland. Can somebody help me 😔 #dunkirk
 >
@@ -45,7 +45,7 @@ Watch for two traps. First, a polite "thanks" on its own is not enough: "Thanks,
 >
 > **Agent:** Glad we could help 😊
 
-*Why Appreciative:* the first message is a request for help, but the last message carries strong happiness ("I'm so happy", "thank you" three times). Because the ending decides the label, this conversation is Appreciative.
+*Why Help-seeking, not Appreciative:* the last message carries strong happiness ("I'm so happy", "thank you" three times), but the first message is a calm request for help ("Can somebody help me"). Every customer message counts, and Help-seeking comes before Appreciative in the order of precedence, so the primary label is Help-seeking. Choose Appreciative as the optional secondary label.
 
 ### 2. Neutral or informational
 
@@ -203,7 +203,7 @@ Escalation can sit in one message or build over several. The key difference from
 
 ### Order of precedence
 
-When the customer's final messages show more than one signal, take the first label in this list that applies:
+When the customer's messages show more than one tone anywhere in the conversation, take the first label in this list that applies:
 
 1. **Escalatory** if there is a demand, a threat, an accusation or anger that has clearly intensified.
 2. **Frustrated** if there is negative emotion or a complaint and no demand or threat.
@@ -214,7 +214,7 @@ When the customer's final messages show more than one signal, take the first lab
 ### Edge cases
 
 - **Sarcasm:** "Thanks a lot..." after a bad reply is negative. Label it Frustrated, or Escalatory if a demand, threat, accusation or build-up is also present.
-- **Mixed tone:** label the tone the customer ends on; earlier tone is context only.
+- **Mixed tone:** every customer message counts, so use the order of precedence. A customer who asks for a manager early and later says thanks is Escalatory. You can pick the other tone as the optional secondary label.
 - **Angry question:** a question with an angry edge is Frustrated or Escalatory, not Help-seeking.
 - **Problem described flatly:** a late order or missing refund stated without emotion is Neutral.
 - **Agent behavior:** ignore it, except to understand the customer's reaction.
