@@ -146,7 +146,7 @@ The customer has moved beyond venting and is pressing for action or raising the 
 3. An accusation aimed at the company: lying, fraud, theft or cheating.
 4. Anger that intensifies across the conversation, with repeated strong condemnation, all capitals or strings of "!!!".
 
-Escalation can sit in one message or build over several. The key difference from Frustrated is that frustrated customers complain, while escalating customers push or threaten. Strong language alone ("pathetic") stays Frustrated unless one of the four signs above is also present. A calm but firm demand ("I need this resolved today or I will dispute the charge") is Escalatory despite its polite wording.
+Escalation can sit in one message or build over several. The key difference from Frustrated is that frustrated customers complain, while escalating customers push or threaten. Strong language alone ("pathetic") stays Frustrated unless one of the four signs above is also present. Swear words always mean Frustrated, even when one of these signs is present. A calm but firm demand ("I need this resolved today or I will dispute the charge") is Escalatory despite its polite wording.
 
 **Example 1 (conversation 1273449).**
 
@@ -194,22 +194,23 @@ Escalation can sit in one message or build over several. The key difference from
   - Not this label if: the question is rhetorical or angry → Frustrated; it demands action or a manager → Escalatory.
 - **Frustrated or complaining**
   - Meaning: the customer is unhappy or critical but is not pressing or threatening.
-  - Cues: "lame", "horrible", "a joke", sarcasm, rhetorical questions, capitals for emphasis, "?!", "still waiting".
-  - Not this label if: there is no emotional wording → Neutral; there is a demand, threat or accusation → Escalatory.
+  - Cues: "lame", "horrible", "a joke", swear words, sarcasm, rhetorical questions, capitals for emphasis, "?!", "still waiting". Any swear word in the customer's lines means Frustrated.
+  - Not this label if: there is no emotional wording → Neutral; there is a demand, threat or accusation and no swear words → Escalatory.
 - **Escalatory or requesting immediate resolution**
   - Meaning: the customer presses for action or raises the stakes.
   - Cues: "manager", "I need a human", "ASAP", "lawsuit", "cancel my Prime", "fraud", "liar", repeated "Unacceptable", "!!!".
-  - Not this label if: the customer only uses strong words with no demand, threat, accusation or build-up → Frustrated.
+  - Not this label if: the customer swears → Frustrated; the customer only uses strong words with no demand, threat, accusation or build-up → Frustrated.
 
 ### Order of precedence
 
 When the customer's final messages show more than one signal, take the first label in this list that applies:
 
-1. **Escalatory** if there is a demand, a threat, an accusation or anger that has clearly intensified.
-2. **Frustrated** if there is negative emotion or a complaint and no demand or threat.
-3. **Help-seeking** if the customer asks a question or requests help and shows no negative emotion.
-4. **Appreciative** if the thanks or praise is genuine and not sarcastic.
-5. **Neutral** if none of the above applies.
+1. **Frustrated** if the customer uses any swear word, even if Escalatory signals are also present.
+2. **Escalatory** if there is a demand, a threat, an accusation or anger that has clearly intensified.
+3. **Frustrated** if there is negative emotion or a complaint and no demand or threat.
+4. **Help-seeking** if the customer asks a question or requests help and shows no negative emotion.
+5. **Appreciative** if the thanks or praise is genuine and not sarcastic.
+6. **Neutral** if none of the above applies.
 
 ### Edge cases
 
@@ -217,6 +218,7 @@ When the customer's final messages show more than one signal, take the first lab
 - **Mixed tone:** label the tone the customer ends on; earlier tone is context only.
 - **Angry question:** a question with an angry edge is Frustrated or Escalatory, not Help-seeking.
 - **Problem described flatly:** a late order or missing refund stated without emotion is Neutral.
+- **Swear words:** if a swear word appears in any of the customer's lines, label the conversation Frustrated and not any other label, including Escalatory.
 - **Agent behavior:** ignore it, except to understand the customer's reaction.
 - **Hashtags and emojis:** count them as tone signals (a praising hashtag is positive; "#fraud" aimed at Amazon is an accusation).
 - **Unreadable or unclear text** (only a link or image, heavy slang, mixed languages): label what you can read with confidence. If you cannot judge the tone, choose Neutral and flag the item if the tool allows it.
