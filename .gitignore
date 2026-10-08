@@ -238,3 +238,4 @@ annotator_packages_overlap/*.zip
 
 potato/project.sqlite*
 potato/annotation_output/
+*~$**.*
