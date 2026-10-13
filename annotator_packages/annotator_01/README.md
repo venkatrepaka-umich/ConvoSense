@@ -2,8 +2,8 @@
 
 ## What you do
 
-Read each customer-support conversation and pick its sense, as described in
-the annotation guidelines: <add link to guidelines>
+Read each customer-support conversation and label how the customer sounds in their final message, as described in
+the annotation guidelines: [Annotation Guidelines](https://docs.google.com/document/d/1K7zbNOvKT0VtPRm4XerBlT16aFGjhhvY/edit#heading=h.posysxd4iw1g)
 
 ## Requirements
 
